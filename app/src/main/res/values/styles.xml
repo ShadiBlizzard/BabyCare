@@ -3,9 +3,22 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/toolbar2</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/text_color_babycare</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BabyCare" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="android:colorBackground">@color/babycare_background</item>
+        <item name="android:textColorPrimary">@color/text_color_babycare</item>
+        <item name="colorPrimaryDark">@color/toolbar2</item>
+        <item name="colorPrimary">@color/toolbar2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Button.Custom">
+        <item name="android:textColor">@color/toolbar2</item>
     </style>
 
 </resources>

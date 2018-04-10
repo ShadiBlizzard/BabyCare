@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="babycare_background">#9999ff</color>
+    <color name="text_color_babycare">#ddffffff</color>
+    <color name="button_babycare">#6666ff</color>
+    <color name="toolbar2">#2d2d86</color>
+
 </resources>
