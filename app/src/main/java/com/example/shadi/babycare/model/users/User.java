@@ -1,10 +1,12 @@
-package com.example.shadi.babycare.model;
+package com.example.shadi.babycare.model.users;
+
+import com.example.shadi.babycare.model.Calendar;
 
 public abstract class User {
 
     private int id;
     private String name, surname, email, city, description, password;
-    private boolean isBs, isAdmin;
+    private boolean isBs;
     private Calendar calendar;
 
 
@@ -64,13 +66,6 @@ public abstract class User {
         isBs = bs;
     }
 
-    public boolean isAdmin() {
-        return isAdmin;
-    }
-
-    public void setAdmin(boolean admin) {
-        isAdmin = admin;
-    }
 
     public Calendar getCalendar() {
         return calendar;
