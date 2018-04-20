@@ -43,4 +43,12 @@ public class Reservation {
     public Review getOptionalReview() {
         return optionalReview;
     }
+
+    public void setIdReservation(int idReservation) {
+        this.idReservation = idReservation;
+    }
+
+    public void setStatus(StatusRes status) {
+        this.status = status;
+    }
 }

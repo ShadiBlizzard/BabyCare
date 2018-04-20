@@ -4,7 +4,7 @@ import com.example.shadi.babycare.model.Calendar;
 
 public abstract class User {
 
-    private int id;
+    private int id, age;
     private String name, surname, email, city, description, password;
     private boolean isBs;
     private Calendar calendar;
@@ -73,5 +73,13 @@ public abstract class User {
 
     public void setCalendar(Calendar calendar) {
         this.calendar = calendar;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
