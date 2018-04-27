@@ -5,7 +5,7 @@ import com.example.shadi.babycare.model.Calendar;
 public abstract class User {
 
     private int id, age;
-    private String name, surname, email, city, description, password;
+    private String name, surname, email, city, description;
     private boolean isBs;
     private Calendar calendar;
 

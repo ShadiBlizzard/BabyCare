@@ -16,7 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.shadi.babycare.MainActivity" >
+        <activity
+            android:name="com.example.shadi.babycare.layout_view.MainActivity"
+            android:theme="@style/BabyCare" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

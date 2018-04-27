@@ -9,14 +9,14 @@ public class Reservation {
 
     private int idReservation;
     private StatusRes status;
-    private Parent requestor;
+    private Parent petitioner;
     private Babysitter babysitter;
     private Calendar date;
     private Review optionalReview = null;
 
-    public Reservation(Parent requestor, Calendar date, Babysitter bs) {
+    public Reservation(Parent petitioner, Calendar date, Babysitter bs) {
         this.babysitter=bs;
-        this.requestor=requestor;
+        this.petitioner=petitioner;
         this.date=date;
     }
 
@@ -29,7 +29,7 @@ public class Reservation {
     }
 
     public Parent getRequestor() {
-        return requestor;
+        return petitioner;
     }
 
     public Babysitter getBabysitter() {

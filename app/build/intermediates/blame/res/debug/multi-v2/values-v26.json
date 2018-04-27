@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Giulia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\664399647ac8197bc98f1c68fb954e92\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Giulia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c772fab8fa57512e73b670c8d1bd88dd\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
