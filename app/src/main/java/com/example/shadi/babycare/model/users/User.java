@@ -4,19 +4,11 @@ import com.example.shadi.babycare.model.Calendar;
 
 public abstract class User {
 
-    private int id, age;
+    private int age;
     private String name, surname, email, city, description;
     private boolean isBs;
     private Calendar calendar;
 
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;

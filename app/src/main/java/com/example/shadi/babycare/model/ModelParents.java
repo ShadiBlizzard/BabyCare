@@ -36,7 +36,6 @@ public class ModelParents extends Model {
     public void dataRetriever() {
         //TEMPORANEUS HARDCODING***
         this.favorites.add(new Babysitter("Sbiribillo", "Volante", 26));
-        this.messages.add(new Message("sbirib"));
 
 
     }

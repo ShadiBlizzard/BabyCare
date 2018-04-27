@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c772fab8fa57512e73b670c8d1bd88dd\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\924638b7b7bd1b2fbbbba3305a98b43c\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1d805af0e8472ef8b014d840e1a55ce9\AndroidManifest.xml:17:1-28:12
@@ -15,25 +15,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Giulia\.gra
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\6e2fe325fd9b71ebaf05dfca94a6b253\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\b3fbfd595530854e5a049b30f4ef7a79\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\0979808f8d5985bd3cc1130ab4253546\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:5:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c772fab8fa57512e73b670c8d1bd88dd\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c772fab8fa57512e73b670c8d1bd88dd\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\924638b7b7bd1b2fbbbba3305a98b43c\AndroidManifest.xml:9:5-20
@@ -85,9 +85,17 @@ ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.example.shadi.babycare.layout_view.LoginActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:21:9-72
+ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:21:9-28:20
+	android:parentActivityName
+		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:22:13-67
 	android:name
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:21:19-60
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:24:13-26:61
+	android:value
+		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:26:17-58
+	android:name
+		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:25:17-63
 uses-sdk
 INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
