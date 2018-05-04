@@ -27,5 +27,8 @@
 
         </activity>
     </application>
+    
+    <!--adding internet connection permission-->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
 </manifest>
