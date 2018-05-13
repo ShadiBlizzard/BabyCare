@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#3d6d8d</color>
+    <color name="colorPrimaryDark">#28465a</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="babycare_background">#9999ff</color>
-    <color name="text_color_babycare">#ddffffff</color>
-    <color name="button_babycare_normal">#6666ff</color>
+    <color name="babycare_background">#b0d4c8</color>
+    <color name="text_color_babycare">#ffffff</color>
+    <color name="button_babycare_normal">#a5175c</color>
     <color name="button_babycare_pressed">#002699</color>
     <color name="button_babycare_disabled">#9999ff</color>
-    <color name="toolbar2">#2d2d86</color>
 
 </resources>
