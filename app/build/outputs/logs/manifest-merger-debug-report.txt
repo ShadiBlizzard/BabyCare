@@ -59,7 +59,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\cache
 	android:supportsRtl
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:8:9-33
 	android:roundIcon
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon

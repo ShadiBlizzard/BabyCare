@@ -1,27 +1,13 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="android:textColorPrimary">@color/text_color_babycare</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-
-    <style name="BabyCare" parent="Theme.AppCompat.Light.DarkActionBar" >
+    <style name="BabyCare" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:colorBackground">@color/babycare_background</item>
         <item name="android:textColorPrimary">@color/text_color_babycare</item>
         <item name="android:textSize">20dp</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/secondColor</item>
+        <item name="colorPrimary">@color/mainColor</item>
         <item name="colorAccent">@color/button_babycare_normal</item>
         <item name="android:textColorSecondaryInverse">@color/colorAccent</item>
-        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
-    </style>
-
-    <style name="TextAppearance.AppCompat.Button.Custom">
-        <item name="android:textColor">@color/toolbar2</item>
+        <item name="android:navigationBarColor">@color/secondColor</item>
     </style>
 
 </resources>
