@@ -38,6 +38,7 @@
         android:background="@drawable/button"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
+        android:onClick="onRegisterPage"
         android:paddingBottom="2dp"
         android:paddingTop="2dp"
         android:text="Register"
@@ -46,8 +47,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.803"
-        />
+        app:layout_constraintVertical_bias="0.803" />
 
     <TextView
         android:id="@+id/textView"
