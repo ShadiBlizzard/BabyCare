@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.shadi.babycare">
 
+    <!-- adding internet connection permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,17 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".layout_view.LoginActivity"
+        <activity
+            android:name=".layout_view.LoginActivity"
             android:parentActivityName=".layout_view.MainActivity">
+
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".layout_view.MainActivity" />
-
         </activity>
+        <activity android:name=".layout_view.RegisterActivity"></activity>
     </application>
-    
-    <!--adding internet connection permission-->
-    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

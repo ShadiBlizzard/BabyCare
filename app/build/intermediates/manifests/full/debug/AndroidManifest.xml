@@ -18,7 +18,6 @@
         android:label="BabyCare"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/BabyCare" >
         <activity
             android:name="com.example.shadi.babycare.layout_view.MainActivity"
@@ -38,6 +37,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".layout_view.MainActivity" />
         </activity>
+        <activity android:name="com.example.shadi.babycare.layout_view.RegisterActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

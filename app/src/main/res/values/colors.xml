@@ -8,5 +8,6 @@
     <color name="button_babycare_normal">#a5175c</color>
     <color name="button_babycare_pressed">#791143</color>
     <color name="button_babycare_disabled">#e07cad</color>
+    <color name="error_text">#b7231e</color>
 
 </resources>
