@@ -4,6 +4,25 @@
             "outputFile": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Giulia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\07ff888f7081c49b045181c720372899\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Giulia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c772fab8fa57512e73b670c8d1bd88dd\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
