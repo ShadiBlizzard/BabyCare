@@ -7,16 +7,12 @@ import android.view.View;
 
 import com.example.shadi.babycare.R;
 
-public class RegisterActivity extends AppCompatActivity {
+public class RegistrationokActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_registrationok);
     }
 
-    public void onRegistrationOk(View view) {
-        Intent intent= new Intent(this, RegistrationokActivity.class);
-        startActivity(intent);
-    }
 }
