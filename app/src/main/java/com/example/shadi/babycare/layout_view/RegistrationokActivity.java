@@ -15,4 +15,8 @@ public class RegistrationokActivity extends AppCompatActivity {
         setContentView(R.layout.activity_registrationok);
     }
 
+    public void onParentHome (View view) {
+        Intent intent=new Intent(this, ParentHomeActivity.class);
+        startActivity(intent);
+    }
 }
