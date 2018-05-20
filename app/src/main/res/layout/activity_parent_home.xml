@@ -7,10 +7,19 @@
     android:fitsSystemWindows="false">
 
     <!-- Layout to contain contents of main body of screen (drawer will slide over this) -->
-    <FrameLayout
-        android:id="@+id/content_frame"
+    <ScrollView
+        android:id="@+id/content_scrollview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.gms.maps.MapView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></com.google.android.gms.maps.MapView>
+        </LinearLayout>
+    </ScrollView>
 
     <!-- Container for contents of drawer - use NavigationView to make configuration easier -->
     <android.support.design.widget.NavigationView

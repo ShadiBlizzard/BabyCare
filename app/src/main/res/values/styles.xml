@@ -13,8 +13,13 @@
     <style name="NaviText" parent="@android:style/TextAppearance.Medium">
         <item name="android:textColor">@color/button_babycare_normal</item>
         <item name="android:textSize">18dp</item>
-        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:fontFamily">casual</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextBabyCare" parent="android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textColor">@color/text_color_babycare</item>
     </style>
 
 </resources>

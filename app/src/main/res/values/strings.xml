@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">BabyCare</string>
-    <string name="home">home</string>
-    <string name="messages">messages</string>
-    <string name="reservations">reservations</string>
-    <string name="invite">invite</string>
-    <string name="profile">profile</string>
-    <string name="settings">settings</string>
-    <string name="policy">policy</string>
-    <string name="logout">logout</string>
+    <string name="home">HOME</string>
+    <string name="messages">MESSAGES</string>
+    <string name="reservations">RESERVATIONS</string>
+    <string name="invite">INVITE</string>
+    <string name="profile">PROFILE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="policy">POLICY</string>
+    <string name="logout">LOGOUT</string>
     <string name="open">open</string>
     <string name="close">close</string>
 </resources>
