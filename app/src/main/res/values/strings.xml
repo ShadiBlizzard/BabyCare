@@ -4,8 +4,10 @@
     <string name="messages">messages</string>
     <string name="reservations">reservations</string>
     <string name="invite">invite</string>
-    <string name="update">update profile</string>
+    <string name="profile">profile</string>
     <string name="settings">settings</string>
     <string name="policy">policy</string>
     <string name="logout">logout</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
 </resources>

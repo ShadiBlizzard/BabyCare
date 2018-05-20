@@ -316,10 +316,6 @@
         "source": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\src\\main\\res\\drawable\\invite_icon.png"
     },
     {
-        "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_temporarypic.png.flat",
-        "source": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\src\\main\\res\\drawable\\temporarypic.png"
-    },
-    {
         "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Giulia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c772fab8fa57512e73b670c8d1bd88dd\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -1478,6 +1474,10 @@
     {
         "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Giulia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c772fab8fa57512e73b670c8d1bd88dd\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icopic.png.flat",
+        "source": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\src\\main\\res\\drawable\\icopic.png"
     },
     {
         "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
