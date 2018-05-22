@@ -412,6 +412,10 @@
         "source": "C:\\Users\\Giulia\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\07ff888f7081c49b045181c720372899\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register3.xml.flat",
+        "source": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_register3.xml"
+    },
+    {
         "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Giulia\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c772fab8fa57512e73b670c8d1bd88dd\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
@@ -1238,6 +1242,10 @@
     {
         "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_disabled.xml.flat",
         "source": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\src\\main\\res\\drawable\\button_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register2.xml.flat",
+        "source": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_register2.xml"
     },
     {
         "merged": "C:\\Users\\Giulia\\AndroidStudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",

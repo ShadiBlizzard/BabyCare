@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.example.shadi.babycare.R;
 
-public class RegisterActivity extends AppCompatActivity {
+public class Register1Activity extends AppCompatActivity {
 
     private EditText edit1, edit2, edit3;
     private RadioGroup radioGroup;
@@ -36,7 +36,7 @@ public class RegisterActivity extends AppCompatActivity {
      */
     public void onGoOn(View view) {
 
-        Intent intent= new Intent(this, RegistrationokActivity.class);
+        Intent intent= new Intent(this, Register2Activity.class);
 
         String email = edit1.getText().toString();
         String password = edit2.getText().toString();

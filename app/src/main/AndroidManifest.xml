@@ -30,9 +30,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".layout_view.MainActivity" />
         </activity>
-        <activity android:name=".layout_view.RegisterActivity" />
+        <activity android:name=".layout_view.Register1Activity" />
         <activity android:name=".layout_view.RegistrationokActivity" />
-        <activity android:name=".layout_view.ParentHomeActivity"></activity>
+        <activity android:name=".layout_view.ParentHomeActivity" />
+        <activity android:name=".layout_view.Register2Activity" />
+        <activity android:name=".layout_view.Register3Activity"></activity>
     </application>
 
 </manifest>

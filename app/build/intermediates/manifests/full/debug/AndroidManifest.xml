@@ -44,9 +44,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".layout_view.MainActivity" />
         </activity>
-        <activity android:name="com.example.shadi.babycare.layout_view.RegisterActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.Register1Activity" />
         <activity android:name="com.example.shadi.babycare.layout_view.RegistrationokActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ParentHomeActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.Register2Activity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.Register3Activity" />
 
         <meta-data
             android:name="android.support.VERSION"
