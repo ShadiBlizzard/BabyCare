@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".layout_view.RegisterActivity">
 
+
     <EditText
         android:id="@+id/emailreg"
         android:layout_width="match_parent"
@@ -43,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/emailreg" />
 
     <EditText
-        android:id="@+id/nameReg"
+        android:id="@+id/password2reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -51,8 +52,8 @@
         android:layout_marginTop="12dp"
         android:background="@drawable/edittext_bc"
         android:ems="10"
-        android:hint="name"
-        android:inputType="textPersonName"
+        android:hint="confirm password"
+        android:inputType="textPassword"
         android:textAppearance="@style/TextBabyCare"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,74 +61,56 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordreg" />
 
-    <EditText
-        android:id="@+id/surnamereg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/edittext_bc"
-        android:ems="10"
-        android:hint="surname"
-        android:inputType="textPersonName"
-        android:textAppearance="@style/TextBabyCare"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameReg" />
 
-    <CheckBox
-        android:id="@+id/checkBox1"
-        style="@android:style/Widget.CompoundButton.CheckBox"
+    <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:buttonTint="@color/button_babycare_normal"
-        android:checked="true"
-        android:text="I'm a parent"
-        android:textAppearance="@style/TextBabyCare"
-        android:textColor="@color/text_color_babycare"
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:checkedButton="1"
+        android:paddingTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/surnamereg" />
+        app:layout_constraintTop_toBottomOf="@+id/password2reg">
 
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:buttonTint="@color/button_babycare_normal"
-        android:checked="false"
-        android:text="I'm a babysitter"
-        android:textAppearance="@style/TextBabyCare"
-        android:textColor="@color/text_color_babycare"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+        <RadioButton
+            android:id="@+id/parentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/button_babycare_normal"
+            android:checked="true"
+            android:text="I'm a parent"
+            android:textAppearance="@style/TextBabyCare"
+            android:textColor="@color/text_color_babycare"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/babysitterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/button_babycare_normal"
+            android:text="I'm a babysitter"
+            android:textAppearance="@style/TextBabyCare"
+            android:textColor="@color/text_color_babycare"
+            android:textStyle="bold" />
+    </RadioGroup>
 
     <Button
-        android:id="@+id/registerbutton"
-        android:layout_width="match_parent"
+        android:id="@+id/goon1"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="9dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/button"
-        android:onClick="onRegistrationOk"
-        android:text="Register"
+        android:text="Go on"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <TextView
         android:id="@+id/errorregister"
@@ -141,6 +124,8 @@
         android:textSize="22dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerbutton" />
+        app:layout_constraintTop_toBottomOf="@+id/goon1" />
+
+
 
 </android.support.constraint.ConstraintLayout>
