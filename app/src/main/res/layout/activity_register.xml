@@ -111,7 +111,6 @@
             android:layout_marginTop="28dp"
             android:background="@drawable/button"
             android:text="Go on"
-            android:onClick="onGoOn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
