@@ -51,9 +51,11 @@ public class Register1Activity extends AppCompatActivity {
 
     private void goOn () {
         Intent intent = new Intent(this, Register2Activity.class);
-        intent.putExtra("email", edit1.getText().toString());
-        intent.putExtra("password", edit2.getText().toString());
-        intent.putExtra("role", role);
+        Bundle b = new Bundle();
+        b.putCharSequence("email", edit1.getText().toString());
+        b.putCharSequence("password", edit2.getText().toString());
+        b.putCharSequence("role", role);
+        intent.putExtras(b);
         startActivity(intent);
     }
 
@@ -82,6 +84,8 @@ public class Register1Activity extends AppCompatActivity {
             ok++;
         }
 
+        //TODO password length check
+
         return ok;
 
     }
@@ -101,7 +105,7 @@ public class Register1Activity extends AppCompatActivity {
      * @param text
      * @return TRUE if empty
      */
-    private boolean isEmpty (EditText text) {
+    public boolean isEmpty (EditText text) {
         CharSequence input = text.getText().toString();
         return TextUtils.isEmpty(input);
     }
