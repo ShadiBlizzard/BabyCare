@@ -34,7 +34,8 @@
         <activity android:name=".layout_view.RegistrationokActivity" />
         <activity android:name=".layout_view.ParentHomeActivity" />
         <activity android:name=".layout_view.Register2Activity" />
-        <activity android:name=".layout_view.Register3Activity"></activity>
+        <activity android:name=".layout_view.Register3Activity" />
+        <activity android:name=".layout_view.Register4Activity"></activity>
     </application>
 
 </manifest>

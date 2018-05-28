@@ -83,8 +83,11 @@ public class Register1Activity extends AppCompatActivity {
             t.show();
             ok++;
         }
-
-        //TODO password length check
+        else if (!passwordLenght(edit2)) {
+            Toast t = Toast.makeText(this, "Password is too short", Toast.LENGTH_SHORT);
+            t.show();
+            ok++;
+        }
 
         return ok;
 
@@ -120,5 +123,17 @@ public class Register1Activity extends AppCompatActivity {
         CharSequence input1 = pass.getText().toString();
         CharSequence input2 = conf.getText().toString();
         return TextUtils.equals(input1, input2);
+    }
+
+    /**
+     * verify if password has a correct lenght
+     * @param pass
+     * @return TRUE if yes
+     */
+    private boolean passwordLenght(EditText pass) {
+        CharSequence input = pass.getText().toString();
+        int length = input.length();
+        return (length>=8 || length <=14);
+
     }
 }

@@ -11,5 +11,6 @@
     <color name="header_nav">#FFC1618F</color>
     <color name="nav">#78c0ef</color>
     <color name="error_text">#b7231e</color>
+    <color name="form_black">#000000</color>
 
 </resources>

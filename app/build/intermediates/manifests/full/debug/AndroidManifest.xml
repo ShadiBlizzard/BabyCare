@@ -50,6 +50,7 @@
         <activity android:name="com.example.shadi.babycare.layout_view.ParentHomeActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.Register2Activity" />
         <activity android:name="com.example.shadi.babycare.layout_view.Register3Activity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.Register4Activity" />
 
         <meta-data
             android:name="android.support.VERSION"
