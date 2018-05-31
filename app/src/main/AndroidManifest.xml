@@ -4,7 +4,7 @@
 
     <!-- adding internet connection permission -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -31,12 +31,21 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".layout_view.MainActivity" />
         </activity>
-        <activity android:name=".layout_view.Register1Activity" />
+        <activity
+            android:name=".layout_view.Register1Activity"
+            android:parentActivityName=".layout_view.MainActivity" />
         <activity android:name=".layout_view.RegistrationokActivity" />
         <activity android:name=".layout_view.ParentHomeActivity" />
-        <activity android:name=".layout_view.Register2Activity" />
-        <activity android:name=".layout_view.Register3Activity" />
-        <activity android:name=".layout_view.Register4Activity"></activity>
+        <activity
+            android:name=".layout_view.Register2Activity"
+            android:parentActivityName=".layout_view.Register1Activity" />
+        <activity
+            android:name=".layout_view.Register3Activity"
+            android:parentActivityName=".layout_view.Register2Activity" />
+        <activity
+            android:name=".layout_view.Register4Activity"
+            android:parentActivityName=".layout_view.Register3Activity" />
+        <activity android:name=".layout_view.Favorites"></activity>
     </application>
 
 </manifest>

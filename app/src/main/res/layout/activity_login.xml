@@ -7,6 +7,8 @@
     tools:context=".layout_view.LoginActivity"
     tools:layout_editor_absoluteY="81dp">
 
+    <include layout="@layout/custom_toolbar"
+        android:id="@+id/toolbar"/>
     <EditText
         android:id="@+id/passwordfield"
         style="@style/BabyCare"
@@ -15,11 +17,13 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
+
         android:background="@drawable/edittext_bc"
         android:ems="10"
         android:hint="e-mail"
         android:inputType="textEmailAddress"
         android:textColor="#000000"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
