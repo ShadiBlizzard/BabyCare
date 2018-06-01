@@ -7,10 +7,8 @@
     tools:context=".layout_view.LoginActivity"
     tools:layout_editor_absoluteY="81dp">
 
-    <include layout="@layout/custom_toolbar"
-        android:id="@+id/toolbar"/>
     <EditText
-        android:id="@+id/passwordfield"
+        android:id="@+id/maillogin"
         style="@style/BabyCare"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +28,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/mailfield"
+        android:id="@+id/passwordlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -44,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordfield"
+        app:layout_constraintTop_toBottomOf="@+id/maillogin"
         />
 
     <Button
@@ -58,7 +56,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mailfield"
+        app:layout_constraintTop_toBottomOf="@+id/passwordlogin"
         android:background="@drawable/button"
         />
 

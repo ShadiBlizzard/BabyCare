@@ -3917,7 +3917,7 @@ public final class R {
     public static final int listMode=0x7f09006f;
     public static final int list_item=0x7f090070;
     public static final int loginsubmit=0x7f090071;
-    public static final int mailfield=0x7f090072;
+    public static final int passwordlogin =0x7f090072;
     public static final int masked=0x7f090073;
     public static final int media_actions=0x7f090074;
     public static final int message=0x7f090075;
@@ -3948,7 +3948,7 @@ public final class R {
     public static final int parentPanel=0x7f09008e;
     public static final int parent_matrix=0x7f09008f;
     public static final int password2reg=0x7f090090;
-    public static final int passwordfield=0x7f090091;
+    public static final int maillogin =0x7f090091;
     public static final int passwordreg=0x7f090092;
     public static final int phone=0x7f090093;
     public static final int pin=0x7f090094;
