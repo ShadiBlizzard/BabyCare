@@ -167,10 +167,10 @@ ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidMa
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:47:13-72
 	android:name
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:46:13-58
-activity#com.example.shadi.babycare.layout_view.Favorites
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:48:9-68
+activity#com.example.shadi.babycare.layout_view.MessagesActivity
+ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:48:9-75
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:48:19-56
+		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:48:19-63
 uses-sdk
 INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
