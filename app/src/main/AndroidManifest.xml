@@ -45,7 +45,7 @@
         <activity
             android:name=".layout_view.Register4Activity"
             android:parentActivityName=".layout_view.Register3Activity" />
-        <activity android:name=".layout_view.Favorites"></activity>
+        <activity android:name=".layout_view.MessagesActivity"></activity>
     </application>
 
 </manifest>

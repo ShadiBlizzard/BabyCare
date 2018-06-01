@@ -4082,7 +4082,7 @@ public final class R {
     public static final int abc_search_dropdown_item_icons_2line=0x7f0b0018;
     public static final int abc_search_view=0x7f0b0019;
     public static final int abc_select_dialog_material=0x7f0b001a;
-    public static final int activity_favorites=0x7f0b001b;
+    public static final int activity_messages =0x7f0b001b;
     public static final int activity_login=0x7f0b001c;
     public static final int activity_main=0x7f0b001d;
     public static final int activity_parent_home=0x7f0b001e;
