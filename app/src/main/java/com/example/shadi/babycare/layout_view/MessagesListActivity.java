@@ -13,14 +13,14 @@ import java.util.ArrayList;
 import adapters.MessageAdapter;
 import model.Message;
 
-public class MessagesActivity extends AppCompatActivity {
+public class MessagesListActivity extends AppCompatActivity {
 
     private ListView listView;
     private MessageAdapter msg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_messages);
+        setContentView(R.layout.activity_messages_list);
         listView = findViewById(R.id.msg_list);
         listCreation();
     }
