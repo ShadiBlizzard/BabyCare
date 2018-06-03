@@ -61,6 +61,7 @@
             android:parentActivityName="com.example.shadi.babycare.layout_view.Register3Activity" />
         <activity android:name="com.example.shadi.babycare.layout_view.MessagesListActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.MessageActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.MessageFormActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
