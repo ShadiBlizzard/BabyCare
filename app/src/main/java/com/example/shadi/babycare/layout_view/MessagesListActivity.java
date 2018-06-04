@@ -28,13 +28,13 @@ public class MessagesListActivity extends AppCompatActivity {
     public void listCreation () {
         //temporaneous hardcoding
         ArrayList<Message> obj = new ArrayList<>();
-        obj.add(new Message("", "sender1", "timestamp1"));
-        obj.add(new Message("", "sender2", "timestamp2"));
-        obj.add(new Message("", "sender3", "timestamp3"));
-        obj.add(new Message("", "sender4", "timestamp4"));
-        obj.add(new Message("", "sender5", "timestamp5"));
-        obj.add(new Message("", "sender6", "timestamp6"));
-        obj.add(new Message("", "sender7", "timestamp7"));
+        obj.add(new Message("sender1", "timestamp1"));
+        obj.add(new Message("sender2", "timestamp2"));
+        obj.add(new Message("sender3", "timestamp3"));
+        obj.add(new Message("sender4", "timestamp4"));
+        obj.add(new Message("sender5", "timestamp5"));
+        obj.add(new Message("sender6", "timestamp6"));
+        obj.add(new Message("sender7", "timestamp7"));
 
         msg = new MessageAdapter(this, obj );
         listView.setAdapter(msg);

@@ -48,8 +48,10 @@
         <activity android:name=".layout_view.MessagesListActivity" />
         <activity android:name=".layout_view.MessageActivity" />
         <activity android:name=".layout_view.MessageFormActivity" />
-        <activity android:name=".layout_view.PolicyActivity"
-            android:parentActivityName=".layout_view.ParentHomeActivity"></activity>
+        <activity
+            android:name=".layout_view.PolicyActivity"
+            android:parentActivityName=".layout_view.ParentHomeActivity" />
+        <activity android:name=".layout_view.ReservationsListActivity"></activity>
     </application>
 
 </manifest>

@@ -2,16 +2,11 @@ package model;
 
 public class Message {
 
-    private String image, timestamp, sender;
+    private String timestamp, sender;
 
-    public  Message (String image, String timestamp, String sender) {
-        this.image = image;
+    public  Message (String timestamp, String sender) {
         this.sender = sender;
         this.timestamp = timestamp;
-    }
-
-    public String getImage() {
-        return image;
     }
 
     public String getTimestamp() {

@@ -62,7 +62,10 @@
         <activity android:name="com.example.shadi.babycare.layout_view.MessagesListActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.MessageActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.MessageFormActivity" />
-        <activity android:name="com.example.shadi.babycare.layout_view.PolicyActivity" />
+        <activity
+            android:name="com.example.shadi.babycare.layout_view.PolicyActivity"
+            android:parentActivityName="com.example.shadi.babycare.layout_view.ParentHomeActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.ReservationsListActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
