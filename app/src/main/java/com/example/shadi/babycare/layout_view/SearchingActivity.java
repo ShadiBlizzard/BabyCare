@@ -40,7 +40,7 @@ public class SearchingActivity extends AppCompatActivity {
                 int month = mCurrentDate.get(Calendar.MONTH);
                 int day = mCurrentDate.get(Calendar.DAY_OF_MONTH);
 
-                DatePickerDialog datePickerDialog = new DatePickerDialog(SearchingActivity.this, new DatePickerDialog.OnDateSetListener() {
+                DatePickerDialog datePickerDialog = new DatePickerDialog(SearchingActivity.this, R.style.DialogTheme, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
                         calendar.setText(dayOfMonth+"-"+month+"-"+year);
