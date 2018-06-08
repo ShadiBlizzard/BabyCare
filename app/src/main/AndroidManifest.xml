@@ -51,7 +51,8 @@
         <activity
             android:name=".layout_view.PolicyActivity"
             android:parentActivityName=".layout_view.ParentHomeActivity" />
-        <activity android:name=".layout_view.ReservationsListActivity"></activity>
+        <activity android:name=".layout_view.ReservationsListActivity" />
+        <activity android:name=".layout_view.SearchingActivity"></activity>
     </application>
 
 </manifest>

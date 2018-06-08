@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void login() {
         //TODO verifico che cosa sia il client che fa il login, in base a quello lo reindirizzo alla home dedicata
-        Intent intent = new Intent(this, MessagesListActivity.class);
+        Intent intent = new Intent(this, SearchingActivity.class);
         startActivity(intent);
     }
 
