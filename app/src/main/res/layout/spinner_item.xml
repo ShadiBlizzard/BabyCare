@@ -6,5 +6,5 @@
         android:fontFamily="casual"
         android:textSize="20dp"
         android:textColor="@color/form_black"
-        android:padding="7dp"
+        android:padding="5dp"
         />

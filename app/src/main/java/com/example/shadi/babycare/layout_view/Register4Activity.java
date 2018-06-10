@@ -57,7 +57,7 @@ public class Register4Activity extends AppCompatActivity implements View.OnClick
                 correctness that call RegisterOkActivity, One with error that will call RegiterErrorActivity
                 NOW I HARDCODE THE OK
                  */
-                Intent ok = new Intent(this, RegistrationokActivity.class);
+                Intent ok = new Intent(this, RegistrationOkActivity.class);
                 startActivity(ok);
                 break;
         }

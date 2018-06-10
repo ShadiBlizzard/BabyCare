@@ -7,12 +7,12 @@ import android.view.View;
 
 import com.example.shadi.babycare.R;
 
-public class RegistrationokActivity extends AppCompatActivity {
+public class RegistrationOkActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registrationok);
+        setContentView(R.layout.activity_registration_ok);
     }
 
     public void onParentHome (View view) {

@@ -34,7 +34,7 @@
         <activity
             android:name=".layout_view.Register1Activity"
             android:parentActivityName=".layout_view.MainActivity" />
-        <activity android:name=".layout_view.RegistrationokActivity" />
+        <activity android:name=".layout_view.RegistrationOkActivity" />
         <activity android:name=".layout_view.ParentHomeActivity" />
         <activity
             android:name=".layout_view.Register2Activity"
@@ -52,7 +52,8 @@
             android:name=".layout_view.PolicyActivity"
             android:parentActivityName=".layout_view.ParentHomeActivity" />
         <activity android:name=".layout_view.ReservationsListActivity" />
-        <activity android:name=".layout_view.SearchingActivity"></activity>
+        <activity android:name=".layout_view.SearchingActivity" />
+        <activity android:name=".layout_view.ReviewListActivity"></activity>
     </application>
 
 </manifest>
