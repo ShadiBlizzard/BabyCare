@@ -21,7 +21,6 @@ public class SearchingActivity extends AppCompatActivity {
     private EditText timer1;
     private EditText timer2;
     private Calendar mCurrentDate;
-    private TimePickerDialog tpd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,23 +51,43 @@ public class SearchingActivity extends AppCompatActivity {
             }
         });
 
-        /*timer1.setOnClickListener(new View.OnClickListener() {
+        timer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mCurrentDate = Calendar.getInstance();
                 int startingHour = mCurrentDate.get(Calendar.HOUR_OF_DAY);
                 int startingMinute = mCurrentDate.get(Calendar.MINUTE);
 
-                tpd = new TimePickerDialog(SearchingActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                TimePickerDialog tpd = new TimePickerDialog(SearchingActivity.this, R.style.DialogTheme, new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
 
                         timer1.setText(hourOfDay+':'+minute);
                     }
                 }, startingHour, startingMinute, true);
+                tpd.show();
 
             }
-        });*/
+        });
+
+        timer2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mCurrentDate = Calendar.getInstance();
+                int startingHour = mCurrentDate.get(Calendar.HOUR_OF_DAY);
+                int startingMinute = mCurrentDate.get(Calendar.MINUTE);
+
+                TimePickerDialog tpd2 = new TimePickerDialog(SearchingActivity.this, R.style.DialogTheme, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+
+                        timer2.setText(hourOfDay+':'+minute);
+                    }
+                }, startingHour, startingMinute, true);
+                tpd2.show();
+
+            }
+        });
 
     }
 
