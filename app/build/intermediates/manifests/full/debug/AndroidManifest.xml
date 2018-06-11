@@ -68,6 +68,7 @@
         <activity android:name="com.example.shadi.babycare.layout_view.ReservationsListActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.SearchingActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ReviewListActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.ReviewFormActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

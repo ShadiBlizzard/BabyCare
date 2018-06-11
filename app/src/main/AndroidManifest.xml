@@ -53,7 +53,8 @@
             android:parentActivityName=".layout_view.ParentHomeActivity" />
         <activity android:name=".layout_view.ReservationsListActivity" />
         <activity android:name=".layout_view.SearchingActivity" />
-        <activity android:name=".layout_view.ReviewListActivity"></activity>
+        <activity android:name=".layout_view.ReviewListActivity" />
+        <activity android:name=".layout_view.ReviewFormActivity"></activity>
     </application>
 
 </manifest>
