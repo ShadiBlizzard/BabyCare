@@ -48,7 +48,7 @@
         <activity
             android:name="com.example.shadi.babycare.layout_view.Register1Activity"
             android:parentActivityName="com.example.shadi.babycare.layout_view.MainActivity" />
-        <activity android:name="com.example.shadi.babycare.layout_view.RegistrationokActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.RegistrationOkActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ParentHomeActivity" />
         <activity
             android:name="com.example.shadi.babycare.layout_view.Register2Activity"
