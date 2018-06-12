@@ -21,6 +21,7 @@ public class ReservationsListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reservation_list);
+        this.setTitle("Your reservations");
         resList = findViewById(R.id.res_list);
         listCreation();
     }

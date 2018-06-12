@@ -26,6 +26,7 @@ public class Register4Activity extends AppCompatActivity implements View.OnClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register4);
+        this.setTitle("Register");
         Intent intent = getIntent();
         bundle = intent.getExtras();
 

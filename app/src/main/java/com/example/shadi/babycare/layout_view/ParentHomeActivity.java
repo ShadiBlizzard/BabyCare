@@ -2,8 +2,8 @@ package com.example.shadi.babycare.layout_view;
 
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import com.example.shadi.babycare.R;
@@ -23,7 +23,11 @@ public class ParentHomeActivity extends AppCompatActivity {
         mToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        this.setTitle("Home");
+
     }
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

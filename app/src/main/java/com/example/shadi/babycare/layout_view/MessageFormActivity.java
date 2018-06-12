@@ -17,6 +17,7 @@ public class MessageFormActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message_form);
+        this.setTitle("New message");
 
         receiver = findViewById(R.id.receiver);
         message = findViewById(R.id.formMessage);

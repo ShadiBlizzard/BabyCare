@@ -30,6 +30,7 @@ public class SearchingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_searching);
+        this.setTitle("Find a babysitter");
 
         calendar = findViewById(R.id.calendarview);
         timer1 = findViewById(R.id.timeview);

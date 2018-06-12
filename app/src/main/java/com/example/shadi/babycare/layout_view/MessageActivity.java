@@ -14,6 +14,7 @@ public class MessageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message);
+        this.setTitle("Message");
 
         timestamp = findViewById(R.id.timestamp);
         sender = findViewById(R.id.sender);

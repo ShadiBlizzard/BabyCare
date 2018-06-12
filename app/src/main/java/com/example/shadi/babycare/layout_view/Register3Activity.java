@@ -26,6 +26,7 @@ public class Register3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register3);
+        this.setTitle("Register");
         address = findViewById(R.id.address);
         district = findViewById(R.id.district);
         neighborhood = findViewById(R.id.neighborhood);

@@ -21,6 +21,7 @@ public class MessagesListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_messages_list);
+        this.setTitle("Your inbox");
         listView = findViewById(R.id.msg_list);
         listCreation();
     }

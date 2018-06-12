@@ -25,6 +25,7 @@ public class Register2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register2);
+        this.setTitle("Register");
         Intent intent = getIntent();
         bundle = intent.getExtras();
         edit1 = findViewById(R.id.name);

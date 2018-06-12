@@ -13,6 +13,7 @@ public class RegistrationOkActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration_ok);
+        this.setTitle("Register");
     }
 
     public void onParentHome (View view) {
