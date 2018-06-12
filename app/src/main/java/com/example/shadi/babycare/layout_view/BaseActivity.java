@@ -26,6 +26,7 @@ public class BaseActivity extends AppCompatActivity {
         mDrLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mToggle = new ActionBarDrawerToggle(this, mDrLayout, R.string.open, R.string.close);
         mDrLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //code for clicked navi item
@@ -59,11 +60,6 @@ public class BaseActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onPostCreate( Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
-        mToggle.syncState();
-    }
 
 
     @Override
