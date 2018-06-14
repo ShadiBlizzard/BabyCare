@@ -16,7 +16,7 @@ public class RegistrationOkActivity extends AppCompatActivity {
         this.setTitle("Register");
     }
 
-    public void onParentHome (View view) {
+    public void onLoginScreen(View view) {
         Intent intent=new Intent(this, SearchingActivity.class);
         startActivity(intent);
     }
