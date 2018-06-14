@@ -3,12 +3,14 @@ package com.example.shadi.babycare.layout_view;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.icu.util.Calendar;
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
@@ -16,7 +18,7 @@ import com.example.shadi.babycare.R;
 import com.google.android.gms.maps.MapView;
 
 
-public class SearchingActivity extends AppCompatActivity {
+public class SearchingActivity extends BaseActivity {
 
     private MapView map;
     private EditText calendar;
@@ -29,8 +31,11 @@ public class SearchingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_searching);
-        this.setTitle("Find a babysitter");
+        //this is needed in order to have the drawer in all activities
+        FrameLayout fl = findViewById(R.id.content_frame);
+        getLayoutInflater().inflate(R.layout.activity_searching, fl);
+
+        super.setTitle("Find a babysitter");
 
         calendar = findViewById(R.id.calendarview);
         timer1 = findViewById(R.id.timeview);

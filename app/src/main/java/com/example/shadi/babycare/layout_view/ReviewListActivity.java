@@ -1,9 +1,11 @@
 package com.example.shadi.babycare.layout_view;
 
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.FrameLayout;
 import android.widget.ListView;
 
 import com.example.shadi.babycare.R;
@@ -13,7 +15,7 @@ import java.util.ArrayList;
 import adapters.ReviewAdapter;
 import model.Review;
 
-public class ReviewListActivity extends AppCompatActivity {
+public class ReviewListActivity extends BaseActivity {
 
 
     private ListView listView;
@@ -22,8 +24,13 @@ public class ReviewListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_review_list);
-        this.setTitle("Reviews");
+
+        //this is needed in order to have the drawer in all activities
+        FrameLayout fl = findViewById(R.id.content_frame);
+        getLayoutInflater().inflate(R.layout.activity_review_list, fl);
+
+
+        super.setTitle("Reviews");
 
         listView = findViewById(R.id.review_list);
         listInitialization();

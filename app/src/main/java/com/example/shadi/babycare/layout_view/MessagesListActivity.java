@@ -1,9 +1,11 @@
 package com.example.shadi.babycare.layout_view;
 
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.FrameLayout;
 import android.widget.ListView;
 
 import com.example.shadi.babycare.R;
@@ -13,15 +15,21 @@ import java.util.ArrayList;
 import adapters.MessageAdapter;
 import model.Message;
 
-public class MessagesListActivity extends AppCompatActivity {
+public class MessagesListActivity extends BaseActivity {
 
     private ListView listView;
     private MessageAdapter msg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_messages_list);
-        this.setTitle("Your inbox");
+        //this is needed in order to have the drawer in all activities
+        FrameLayout fl = findViewById(R.id.content_frame);
+        getLayoutInflater().inflate(R.layout.activity_messages_list, fl);
+
+        NavigationView nv = findViewById(R.id.nav_view);
+        nv.getMenu().getItem(1).setChecked(true);
+
+        super.setTitle("Your inbox");
         listView = findViewById(R.id.msg_list);
         listCreation();
     }

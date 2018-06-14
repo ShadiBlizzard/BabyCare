@@ -37,7 +37,7 @@ public class BaseActivity extends AppCompatActivity {
 
                 switch (item.getItemId()) {
                     case R.id.nav_home:
-                       // Intent homeCaller = new Intent(getApplicationContext(),);
+                        Intent homeCaller = new Intent(getApplicationContext(), SearchingActivity.class);
                         break;
                     case R.id.nav_reservations:
                         Intent resCaller = new Intent(getApplicationContext(), ReservationsListActivity.class);

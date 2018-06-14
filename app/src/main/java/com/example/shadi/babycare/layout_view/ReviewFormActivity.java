@@ -1,18 +1,20 @@
 package com.example.shadi.babycare.layout_view;
 
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.shadi.babycare.R;
 
-public class ReviewFormActivity extends AppCompatActivity {
+public class ReviewFormActivity extends BaseActivity {
 
     private TextView name;
     private EditText title, text;
@@ -21,8 +23,12 @@ public class ReviewFormActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_review_form);
-        this.setTitle("New review");
+        //this is needed in order to have the drawer in all activities
+        FrameLayout fl = findViewById(R.id.content_frame);
+        getLayoutInflater().inflate(R.layout.activity_review_form, fl);
+
+
+        super.setTitle("New review");
 
         name = findViewById(R.id.reviewed_bs_name);
         title = findViewById(R.id.new_review_title);
