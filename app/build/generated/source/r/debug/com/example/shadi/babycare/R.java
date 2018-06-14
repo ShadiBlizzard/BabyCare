@@ -3863,7 +3863,7 @@ public final class R {
     public static final int collapseActionView=0x7f090038;
     public static final int container=0x7f090039;
     public static final int contentPanel=0x7f09003a;
-    public static final int content_scrollview=0x7f09003b;
+    public static final int content_frame=0x7f09003b;
     public static final int coordinator=0x7f09003c;
     public static final int counterpart_name=0x7f09003d;
     public static final int custom=0x7f09003e;

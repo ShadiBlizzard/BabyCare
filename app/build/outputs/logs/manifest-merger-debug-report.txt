@@ -110,12 +110,12 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\cache
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:15:9-40
-activity#com.example.shadi.babycare.layout_view.MainActivity
+activity#com.example.shadi.babycare.layout_view.PolicyActivity
 ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:theme
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:18:13-44
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:17:13-53
+		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:17:13-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
@@ -182,12 +182,6 @@ activity#com.example.shadi.babycare.layout_view.MessageFormActivity
 ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:50:9-69
 	android:name
 		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:50:19-66
-activity#com.example.shadi.babycare.layout_view.PolicyActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:51:9-53:70
-	android:parentActivityName
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:53:13-67
-	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:52:13-55
 activity#com.example.shadi.babycare.layout_view.ReservationsListActivity
 ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:54:9-74
 	android:name

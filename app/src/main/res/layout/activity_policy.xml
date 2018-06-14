@@ -15,7 +15,8 @@
         android:layout_marginTop="8dp"
         android:text="Usage policy"
         android:textAppearance="@style/TextBabyCare"
-        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

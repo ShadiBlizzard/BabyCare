@@ -940,7 +940,7 @@ int id clip_vertical 0x7f090037
 int id collapseActionView 0x7f090038
 int id container 0x7f090039
 int id contentPanel 0x7f09003a
-int id content_scrollview 0x7f09003b
+int id content_frame 0x7f09003b
 int id coordinator 0x7f09003c
 int id counterpart_name 0x7f09003d
 int id custom 0x7f09003e

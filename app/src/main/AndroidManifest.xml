@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/BabyCare">
         <activity
-            android:name=".layout_view.MainActivity"
+            android:name=".layout_view.PolicyActivity"
             android:theme="@style/BabyCare">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,9 +48,9 @@
         <activity android:name=".layout_view.MessagesListActivity" />
         <activity android:name=".layout_view.MessageActivity" />
         <activity android:name=".layout_view.MessageFormActivity" />
-        <activity
+        <!--<activity
             android:name=".layout_view.PolicyActivity"
-            android:parentActivityName=".layout_view.BaseActivity" />
+            android:parentActivityName=".layout_view.BaseActivity" />-->
         <activity android:name=".layout_view.ReservationsListActivity" />
         <activity android:name=".layout_view.SearchingActivity" />
         <activity android:name=".layout_view.ReviewListActivity" />
