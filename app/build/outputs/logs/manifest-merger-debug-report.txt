@@ -11,6 +11,7 @@ MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Giulia\.gradle\cac
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bae92a1e2a2438eafa71ba62ab1f8737\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:17:1-32:12
 MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:17:1-27:12
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:17:1-29:12
@@ -70,6 +71,8 @@ MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:30:5-20
 MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:25:5-20
 MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:25:5-20
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:22:5-26:19
@@ -234,6 +237,8 @@ MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:20:5-44
 MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:21:5-23:41
 MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:21:5-23:41
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:20:5-44

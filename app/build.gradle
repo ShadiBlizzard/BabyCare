@@ -31,4 +31,5 @@ dependencies {
     implementation 'net.gotev:uploadservice:2.1'
     implementation 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
     implementation 'com.github.sillebille:dynamic-calendar:1.0.1'
+    implementation 'de.hdodenhof:circleimageview:1.2.1'
 }

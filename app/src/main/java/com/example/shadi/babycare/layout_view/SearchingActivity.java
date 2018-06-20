@@ -40,6 +40,7 @@ public class SearchingActivity extends BaseActivity {
         calendar = findViewById(R.id.calendarview);
         timer1 = findViewById(R.id.timeview);
         timer2 = findViewById(R.id.timeview2);
+        search = findViewById(R.id.search);
         initialize();
 
         calendar.setOnClickListener(new View.OnClickListener() {
@@ -130,7 +131,7 @@ public class SearchingActivity extends BaseActivity {
         }
 
         if(startingHourChosen == endingHourChosen) {
-            if (startingMinuteChosen >= endingHourChosen)
+            if (startingMinuteChosen >= endingMinuteChosen)
                 timer1.setError("set correct time space");
         }
         else if (startingHourChosen >= endingHourChosen)
