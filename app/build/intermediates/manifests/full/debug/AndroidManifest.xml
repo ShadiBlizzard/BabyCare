@@ -72,6 +72,7 @@
         <activity android:name="com.example.shadi.babycare.layout_view.ReviewActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ParentHomeActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.RegistrationKoActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.FavListActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
