@@ -5,10 +5,11 @@ public class ProfileBs {
     private String name, surname, pic;
     private float rating;
 
-    public ProfileBs(String name, String surname, String pic) {
+    public ProfileBs(String name, String surname, String pic, float rating) {
         this.name=name;
         this.surname=surname;
         this.pic= pic;
+        this.rating=rating;
 
     }
 

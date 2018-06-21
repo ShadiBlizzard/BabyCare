@@ -53,7 +53,7 @@ public class ProfileAdapter extends BaseAdapter {
         CircleImageView circleImageView = (CircleImageView) itemView.findViewById(R.id.profile_pic);
 
         ProfileBs sel_bs = bs.get(position);
-        namesurname.setText(sel_bs.getName());
+        namesurname.setText(sel_bs.getName()+ " " + sel_bs.getSurname());
         ratingBar.setRating(sel_bs.getRating());
          //TODO profile pic per ora default
         return itemView;

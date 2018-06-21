@@ -58,7 +58,8 @@
         <activity android:name=".layout_view.ReviewActivity" />
         <activity android:name=".layout_view.ParentHomeActivity" />
         <activity android:name=".layout_view.RegistrationKoActivity" />
-        <activity android:name=".layout_view.FavListActivity"></activity>
+        <activity android:name=".layout_view.FavListActivity" />
+        <activity android:name=".layout_view.ProfileActivity"></activity>
     </application>
 
 </manifest>
