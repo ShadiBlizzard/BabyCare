@@ -74,6 +74,7 @@
         <activity android:name="com.example.shadi.babycare.layout_view.RegistrationKoActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.FavListActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.ResultsListActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
