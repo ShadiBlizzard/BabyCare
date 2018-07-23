@@ -60,7 +60,9 @@
         <activity android:name=".layout_view.RegistrationKoActivity" />
         <activity android:name=".layout_view.FavListActivity" />
         <activity android:name=".layout_view.ProfileActivity" />
-        <activity android:name=".layout_view.ResultsListActivity"></activity>
+        <activity android:name=".layout_view.ResultsListActivity" />
+        <activity android:name=".layout_view.ProfileBsFromBsActivity" />
+        <activity android:name=".layout_view.ProfileParFromParActivity"></activity>
     </application>
 
 </manifest>

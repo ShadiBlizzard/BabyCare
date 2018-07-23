@@ -75,6 +75,8 @@
         <activity android:name="com.example.shadi.babycare.layout_view.FavListActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ResultsListActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.BsFromBsProfileActivity" />
+        <activity android:name="com.example.shadi.babycare.ProfileParFromPar" />
 
         <meta-data
             android:name="android.support.VERSION"
