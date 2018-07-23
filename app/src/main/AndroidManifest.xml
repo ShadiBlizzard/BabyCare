@@ -62,7 +62,8 @@
         <activity android:name=".layout_view.ProfileActivity" />
         <activity android:name=".layout_view.ResultsListActivity" />
         <activity android:name=".layout_view.ProfileBsFromBsActivity" />
-        <activity android:name=".layout_view.ProfileParFromParActivity"></activity>
+        <activity android:name=".layout_view.ProfileParFromParActivity" />
+        <activity android:name=".layout_view.ReservationDetailsActivity"></activity>
     </application>
 
 </manifest>
