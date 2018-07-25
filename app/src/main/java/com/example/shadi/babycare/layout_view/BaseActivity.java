@@ -51,6 +51,10 @@ public class BaseActivity extends AppCompatActivity {
                         Intent policyCaller = new Intent(getApplicationContext(), PolicyActivity.class);
                         startActivity(policyCaller);
                         break;
+                    case R.id.nav_profile:
+                        Intent profileCaller = new Intent(getApplicationContext(), ProfileActivity.class);
+                        startActivity(profileCaller);
+                        break;
                 }
 
                 return false;

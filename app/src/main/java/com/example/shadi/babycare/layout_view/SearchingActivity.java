@@ -24,7 +24,7 @@ public class SearchingActivity extends BaseActivity {
     private EditText calendar;
     private EditText timer1;
     private EditText timer2;
-    private Calendar mCurrentDate;
+    private Calendar mCurrentDate, mCurrentTime;
     private Button search;
     private int yearChosen, monthChosen, dayChosen, startingHourChosen, endingHourChosen, startingMinuteChosen, endingMinuteChosen;
 
@@ -54,7 +54,8 @@ public class SearchingActivity extends BaseActivity {
                 DatePickerDialog datePickerDialog = new DatePickerDialog(SearchingActivity.this, R.style.DialogTheme, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        calendar.setText(dayOfMonth+"-"+month+"-"+year);
+                        month++;
+                        calendar.setText(dayOfMonth+" - "+ month +" - "+year);
                         mCurrentDate.set(year, month, dayOfMonth);
                         yearChosen = year;
                         monthChosen = month;
@@ -69,15 +70,15 @@ public class SearchingActivity extends BaseActivity {
         timer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mCurrentDate = Calendar.getInstance();
-                int startingHour = mCurrentDate.get(Calendar.HOUR_OF_DAY);
-                int startingMinute = mCurrentDate.get(Calendar.MINUTE);
+                mCurrentTime = Calendar.getInstance();
+                int startingHour = mCurrentTime.get(Calendar.HOUR_OF_DAY);
+                int startingMinute = mCurrentTime.get(Calendar.MINUTE);
 
                 TimePickerDialog tpd = new TimePickerDialog(SearchingActivity.this, R.style.DialogTheme, new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
 
-                        timer1.setText(hourOfDay+':'+minute);
+                        timer1.setText(hourOfDay+":"+String.format("%02d", minute));
                         startingHourChosen = hourOfDay;
                         startingMinuteChosen = minute;
                     }
@@ -98,7 +99,7 @@ public class SearchingActivity extends BaseActivity {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
 
-                        timer2.setText(hourOfDay+':'+minute);
+                        timer2.setText(hourOfDay+":"+String.format("%02d", minute));
                         endingHourChosen = hourOfDay;
                         endingMinuteChosen = minute;
                     }
