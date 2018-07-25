@@ -131,12 +131,18 @@ public class SearchingActivity extends BaseActivity {
             t.show();
         }
 
-        if(startingHourChosen == endingHourChosen) {
-            if (startingMinuteChosen >= endingMinuteChosen)
+        else if(startingHourChosen == endingHourChosen) {
+            if (startingMinuteChosen >= endingMinuteChosen) {
                 timer1.setError("set correct time space");
+                Toast t = Toast.makeText(this, "set correct time space", Toast.LENGTH_SHORT);
+                t.show();
+            }
         }
-        else if (startingHourChosen >= endingHourChosen)
+        else if (startingHourChosen >= endingHourChosen) {
             timer1.setError("set correct time space");
+            Toast t = Toast.makeText(this, "set correct time space", Toast.LENGTH_SHORT);
+            t.show();
+        }
 
 
 

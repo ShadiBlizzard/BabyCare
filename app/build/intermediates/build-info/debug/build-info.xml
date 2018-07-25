@@ -6,22 +6,22 @@
     density="560dpi"
     format="10"
     plugin-version="3.1.3"
-    timestamp="1532528974220"
+    timestamp="1532531120923"
     token="-8520552744661270235"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="13689" />
+        duration="106339" />
     <task
         name="instant-run-dex"
-        duration="3942" />
+        duration="3812" />
     <task
         name="instant-run-transform"
-        duration="2376" />
+        duration="5055" />
     <task
         name="verifier"
-        duration="431" />
+        duration="5391" />
 
     <artifact
         location="C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\build\intermediates\reload-dex\debug\classes.dex"
@@ -88,6 +88,14 @@
     <build
         build-mode="HOT_WARM"
         timestamp="1532528974220"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\build\intermediates\builds\debug\1532528974220\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1532531120923"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\build\intermediates\reload-dex\debug\classes.dex"

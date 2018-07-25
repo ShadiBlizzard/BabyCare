@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(this, "Fill e-mail field correctly", Toast.LENGTH_SHORT);
             toast.show();
         }
-        if (TextUtils.isEmpty(pw)) {
+        else if (TextUtils.isEmpty(pw)) {
             ok++;
             Toast toast = Toast.makeText(this, "Password not correct", Toast.LENGTH_SHORT);
             toast.show();
