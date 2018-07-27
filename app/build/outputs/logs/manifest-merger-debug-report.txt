@@ -1,381 +1,385 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-69:12
-MERGED from [com.android.support:design:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0b83107e577eedaeb93dc2b3fdc9ed8c\AndroidManifest.xml:17:1-31:12
-MERGED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:2:1-23:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\d7add0ed33ba9e5b89180955d6b09f00\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b992c033415a28bb68cf5c43df60a06b\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bae92a1e2a2438eafa71ba62ab1f8737\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:17:1-32:12
-MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:17:1-27:12
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e2057ad5652504c00e568b408842cb8f\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\37188f8bb09e5020cb4f35eb871ca7ea\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\444aa00f1dc29b1c03ded4fa2b641cef\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\01b1d80ccd5e03be4a90b94440a06bd3\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\623c98b4f97a9279117a104b5d37c915\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7bf9ac8246d1b44561aa292a061d1982\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1206098fb1e78acf5b6f95ce604f09a4\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b7dbbacba4179f51e8839af79e841374\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\fbcc02d9568d9a61c5d0a61056c1e7be\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\736e0c5dee8d910c712f570ecd667eab\AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\18bf3b9781161f276bcbde4e67761d31\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-69:12
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-70:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57ca9c2f65d4fb89fd862737d3e62368\AndroidManifest.xml:17:1-31:12
+MERGED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4b9168a05d122df069ed357399465c9a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64a583efbc9aee3acc51be7e02c57679\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9842085afe86adafc7d8e738639d1e96\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:17:1-32:12
+MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\b53daeb3dca9a5a6e573f9876024a5be\AndroidManifest.xml:17:1-27:12
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3f0550d68b8625709893a6bc0bd0eb7c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db06439871dc631ddce61a46d2b299cb\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\e8384581d64c3430e95a873c48023a6e\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\09e4d34e9153d73989e23550acd2245a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e581aa31248346c8268f05c4ff5383\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7853812f99a0763e05c4c0dcda91ae2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ffcf85c4aa607c560ae4d98cdefacc8a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\ce5e8d591631d597cbbc6eaf2565850e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\418d8f4dac09789ccedbfba3a87de14e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\511340344df939153f087f68d7dd93f6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\60972e45066c7198871c76f1231f5117\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\069861c8cd0055071508378d5cce6198\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\8bdbb6162f35a5260335df4cbb8c497d\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f3e45038b527840378470bd52e4e5165\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-70:12
 	package
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-69:12
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-70:12
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-69:12
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-70:12
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:6:5-67
-MERGED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:11:5-67
-MERGED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:24:5-67
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:11:5-67
+MERGED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:7:22-77
 application
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:9:5-67:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0b83107e577eedaeb93dc2b3fdc9ed8c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0b83107e577eedaeb93dc2b3fdc9ed8c\AndroidManifest.xml:25:5-29:19
-MERGED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:15:5-21:19
-MERGED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:15:5-21:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\d7add0ed33ba9e5b89180955d6b09f00\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\d7add0ed33ba9e5b89180955d6b09f00\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b992c033415a28bb68cf5c43df60a06b\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b992c033415a28bb68cf5c43df60a06b\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bae92a1e2a2438eafa71ba62ab1f8737\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bae92a1e2a2438eafa71ba62ab1f8737\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:30:5-20
-MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:25:5-20
-MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:25:5-20
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e2057ad5652504c00e568b408842cb8f\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e2057ad5652504c00e568b408842cb8f\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\37188f8bb09e5020cb4f35eb871ca7ea\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\37188f8bb09e5020cb4f35eb871ca7ea\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\444aa00f1dc29b1c03ded4fa2b641cef\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\444aa00f1dc29b1c03ded4fa2b641cef\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\01b1d80ccd5e03be4a90b94440a06bd3\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\01b1d80ccd5e03be4a90b94440a06bd3\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\623c98b4f97a9279117a104b5d37c915\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\623c98b4f97a9279117a104b5d37c915\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7bf9ac8246d1b44561aa292a061d1982\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7bf9ac8246d1b44561aa292a061d1982\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1206098fb1e78acf5b6f95ce604f09a4\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1206098fb1e78acf5b6f95ce604f09a4\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b7dbbacba4179f51e8839af79e841374\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b7dbbacba4179f51e8839af79e841374\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\fbcc02d9568d9a61c5d0a61056c1e7be\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\fbcc02d9568d9a61c5d0a61056c1e7be\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\736e0c5dee8d910c712f570ecd667eab\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\736e0c5dee8d910c712f570ecd667eab\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\18bf3b9781161f276bcbde4e67761d31\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\18bf3b9781161f276bcbde4e67761d31\AndroidManifest.xml:24:5-28:19
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:9:5-68:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57ca9c2f65d4fb89fd862737d3e62368\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57ca9c2f65d4fb89fd862737d3e62368\AndroidManifest.xml:25:5-29:19
+MERGED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:15:5-21:19
+MERGED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:15:5-21:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4b9168a05d122df069ed357399465c9a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4b9168a05d122df069ed357399465c9a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64a583efbc9aee3acc51be7e02c57679\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64a583efbc9aee3acc51be7e02c57679\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9842085afe86adafc7d8e738639d1e96\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9842085afe86adafc7d8e738639d1e96\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:30:5-20
+MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\b53daeb3dca9a5a6e573f9876024a5be\AndroidManifest.xml:25:5-20
+MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\b53daeb3dca9a5a6e573f9876024a5be\AndroidManifest.xml:25:5-20
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3f0550d68b8625709893a6bc0bd0eb7c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3f0550d68b8625709893a6bc0bd0eb7c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db06439871dc631ddce61a46d2b299cb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db06439871dc631ddce61a46d2b299cb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\e8384581d64c3430e95a873c48023a6e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\e8384581d64c3430e95a873c48023a6e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\09e4d34e9153d73989e23550acd2245a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\09e4d34e9153d73989e23550acd2245a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e581aa31248346c8268f05c4ff5383\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e581aa31248346c8268f05c4ff5383\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7853812f99a0763e05c4c0dcda91ae2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7853812f99a0763e05c4c0dcda91ae2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ffcf85c4aa607c560ae4d98cdefacc8a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ffcf85c4aa607c560ae4d98cdefacc8a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\ce5e8d591631d597cbbc6eaf2565850e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\ce5e8d591631d597cbbc6eaf2565850e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\418d8f4dac09789ccedbfba3a87de14e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\418d8f4dac09789ccedbfba3a87de14e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\511340344df939153f087f68d7dd93f6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\511340344df939153f087f68d7dd93f6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\60972e45066c7198871c76f1231f5117\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\60972e45066c7198871c76f1231f5117\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\069861c8cd0055071508378d5cce6198\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\069861c8cd0055071508378d5cce6198\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\8bdbb6162f35a5260335df4cbb8c497d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\8bdbb6162f35a5260335df4cbb8c497d\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f3e45038b527840378470bd52e4e5165\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f3e45038b527840378470bd52e4e5165\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:12:9-33
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:12:9-33
 	android:roundIcon
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.example.shadi.babycare.layout_view.MainActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:16:9-24:20
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:16:9-24:20
 	android:theme
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:18:13-44
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:18:13-44
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:17:13-53
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:17:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:22:27-74
 activity#com.example.shadi.babycare.layout_view.LoginActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:25:9-33:20
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:parentActivityName
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:27:13-67
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:27:13-67
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:26:13-54
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:26:13-54
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:30:13-32:61
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:30:13-32:61
 	android:value
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:32:17-58
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:32:17-58
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:31:17-63
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:31:17-63
 activity#com.example.shadi.babycare.layout_view.Register1Activity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:34:9-36:70
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:34:9-36:70
 	android:parentActivityName
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:36:13-67
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:36:13-67
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:35:13-58
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:35:13-58
 activity#com.example.shadi.babycare.layout_view.RegistrationOkActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:37:9-72
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:37:9-72
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:37:19-69
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:37:19-69
 activity#com.example.shadi.babycare.layout_view.BaseActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:38:9-62
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:38:9-62
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:38:19-59
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:38:19-59
 activity#com.example.shadi.babycare.layout_view.Register2Activity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:39:9-41:75
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:39:9-41:75
 	android:parentActivityName
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:41:13-72
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:41:13-72
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:40:13-58
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:40:13-58
 activity#com.example.shadi.babycare.layout_view.Register3Activity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:42:9-44:75
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:42:9-44:75
 	android:parentActivityName
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:44:13-72
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:44:13-72
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:43:13-58
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:43:13-58
 activity#com.example.shadi.babycare.layout_view.Register4Activity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:45:9-47:75
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:45:9-47:75
 	android:parentActivityName
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:47:13-72
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:47:13-72
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:46:13-58
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:46:13-58
 activity#com.example.shadi.babycare.layout_view.MessagesListActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:48:9-70
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:48:9-70
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:48:19-67
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:48:19-67
 activity#com.example.shadi.babycare.layout_view.MessageActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:49:9-65
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:49:9-65
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:49:19-62
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:49:19-62
 activity#com.example.shadi.babycare.layout_view.MessageFormActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:50:9-69
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:50:9-69
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:50:19-66
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:50:19-66
 activity#com.example.shadi.babycare.layout_view.PolicyActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:51:9-53:70
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:51:9-53:70
 	android:parentActivityName
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:53:13-67
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:53:13-67
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:52:13-55
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:52:13-55
 activity#com.example.shadi.babycare.layout_view.ReservationsListActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:54:9-74
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:54:9-74
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:54:19-71
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:54:19-71
 activity#com.example.shadi.babycare.layout_view.SearchingActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:55:9-67
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:55:9-67
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:55:19-64
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:55:19-64
 activity#com.example.shadi.babycare.layout_view.ReviewListActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:56:9-68
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:56:9-68
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:56:19-65
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:56:19-65
 activity#com.example.shadi.babycare.layout_view.ReviewFormActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:57:9-68
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:57:9-68
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:57:19-65
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:57:19-65
 activity#com.example.shadi.babycare.layout_view.ReviewActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:58:9-64
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:58:9-64
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:58:19-61
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:58:19-61
 activity#com.example.shadi.babycare.layout_view.ParentHomeActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:59:9-68
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:59:9-68
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:59:19-65
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:59:19-65
 activity#com.example.shadi.babycare.layout_view.RegistrationKoActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:60:9-72
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:60:9-72
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:60:19-69
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:60:19-69
 activity#com.example.shadi.babycare.layout_view.FavListActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:61:9-65
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:61:9-65
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:61:19-62
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:61:19-62
 activity#com.example.shadi.babycare.layout_view.ProfileActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:62:9-65
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:62:9-65
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:62:19-62
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:62:19-62
 activity#com.example.shadi.babycare.layout_view.ResultsListActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:63:9-69
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:63:9-69
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:63:19-66
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:63:19-66
 activity#com.example.shadi.babycare.layout_view.ProfileBsFromBsActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:64:9-73
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:64:9-73
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:64:19-70
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:64:19-70
 activity#com.example.shadi.babycare.layout_view.ProfileParFromParActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:65:9-75
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:65:9-75
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:65:19-72
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:65:19-72
 activity#com.example.shadi.babycare.layout_view.ReservationDetailsActivity
-ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:66:9-85
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:66:9-76
 	android:name
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml:66:19-73
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:66:19-73
+activity#com.example.shadi.babycare.layout_view.Register0Activity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:67:9-76
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:67:19-64
 uses-sdk
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0b83107e577eedaeb93dc2b3fdc9ed8c\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0b83107e577eedaeb93dc2b3fdc9ed8c\AndroidManifest.xml:21:5-23:62
-MERGED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:7:5-9:41
-MERGED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\d7add0ed33ba9e5b89180955d6b09f00\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\d7add0ed33ba9e5b89180955d6b09f00\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b992c033415a28bb68cf5c43df60a06b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b992c033415a28bb68cf5c43df60a06b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bae92a1e2a2438eafa71ba62ab1f8737\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bae92a1e2a2438eafa71ba62ab1f8737\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:20:5-44
-MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:21:5-23:41
-MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\25fcf6f056287f902b222815bc1e9c4e\AndroidManifest.xml:21:5-23:41
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\2c6d4cb5bd54904611f1bd71579452e4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e2057ad5652504c00e568b408842cb8f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e2057ad5652504c00e568b408842cb8f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\37188f8bb09e5020cb4f35eb871ca7ea\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\37188f8bb09e5020cb4f35eb871ca7ea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\444aa00f1dc29b1c03ded4fa2b641cef\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\444aa00f1dc29b1c03ded4fa2b641cef\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\01b1d80ccd5e03be4a90b94440a06bd3\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\01b1d80ccd5e03be4a90b94440a06bd3\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\623c98b4f97a9279117a104b5d37c915\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\623c98b4f97a9279117a104b5d37c915\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7bf9ac8246d1b44561aa292a061d1982\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7bf9ac8246d1b44561aa292a061d1982\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1206098fb1e78acf5b6f95ce604f09a4\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1206098fb1e78acf5b6f95ce604f09a4\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b7dbbacba4179f51e8839af79e841374\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b7dbbacba4179f51e8839af79e841374\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\fbcc02d9568d9a61c5d0a61056c1e7be\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\fbcc02d9568d9a61c5d0a61056c1e7be\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\736e0c5dee8d910c712f570ecd667eab\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\736e0c5dee8d910c712f570ecd667eab\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\18bf3b9781161f276bcbde4e67761d31\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\18bf3b9781161f276bcbde4e67761d31\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57ca9c2f65d4fb89fd862737d3e62368\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57ca9c2f65d4fb89fd862737d3e62368\AndroidManifest.xml:21:5-23:62
+MERGED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:7:5-9:41
+MERGED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4b9168a05d122df069ed357399465c9a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4b9168a05d122df069ed357399465c9a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64a583efbc9aee3acc51be7e02c57679\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64a583efbc9aee3acc51be7e02c57679\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9842085afe86adafc7d8e738639d1e96\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\9842085afe86adafc7d8e738639d1e96\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:20:5-44
+MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\b53daeb3dca9a5a6e573f9876024a5be\AndroidManifest.xml:21:5-23:41
+MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\b53daeb3dca9a5a6e573f9876024a5be\AndroidManifest.xml:21:5-23:41
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3f0550d68b8625709893a6bc0bd0eb7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3f0550d68b8625709893a6bc0bd0eb7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db06439871dc631ddce61a46d2b299cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db06439871dc631ddce61a46d2b299cb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\e8384581d64c3430e95a873c48023a6e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\e8384581d64c3430e95a873c48023a6e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\09e4d34e9153d73989e23550acd2245a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\09e4d34e9153d73989e23550acd2245a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e581aa31248346c8268f05c4ff5383\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e581aa31248346c8268f05c4ff5383\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7853812f99a0763e05c4c0dcda91ae2\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7853812f99a0763e05c4c0dcda91ae2\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ffcf85c4aa607c560ae4d98cdefacc8a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ffcf85c4aa607c560ae4d98cdefacc8a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\ce5e8d591631d597cbbc6eaf2565850e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\ce5e8d591631d597cbbc6eaf2565850e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\418d8f4dac09789ccedbfba3a87de14e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\418d8f4dac09789ccedbfba3a87de14e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\511340344df939153f087f68d7dd93f6\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\511340344df939153f087f68d7dd93f6\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\60972e45066c7198871c76f1231f5117\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\60972e45066c7198871c76f1231f5117\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\069861c8cd0055071508378d5cce6198\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\069861c8cd0055071508378d5cce6198\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\8bdbb6162f35a5260335df4cbb8c497d\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\8bdbb6162f35a5260335df4cbb8c497d\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f3e45038b527840378470bd52e4e5165\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f3e45038b527840378470bd52e4e5165\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0b83107e577eedaeb93dc2b3fdc9ed8c\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57ca9c2f65d4fb89fd862737d3e62368\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Giulia\AndroidStudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0b83107e577eedaeb93dc2b3fdc9ed8c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\d7add0ed33ba9e5b89180955d6b09f00\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\d7add0ed33ba9e5b89180955d6b09f00\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b992c033415a28bb68cf5c43df60a06b\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b992c033415a28bb68cf5c43df60a06b\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e4ea387ace8882cbd1ce34243a894e26\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a8857ce77d1404c4259c1fe5f9e6616c\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\444aa00f1dc29b1c03ded4fa2b641cef\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\444aa00f1dc29b1c03ded4fa2b641cef\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\01b1d80ccd5e03be4a90b94440a06bd3\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\01b1d80ccd5e03be4a90b94440a06bd3\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\623c98b4f97a9279117a104b5d37c915\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\623c98b4f97a9279117a104b5d37c915\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7bf9ac8246d1b44561aa292a061d1982\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\7bf9ac8246d1b44561aa292a061d1982\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1206098fb1e78acf5b6f95ce604f09a4\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\1206098fb1e78acf5b6f95ce604f09a4\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b7dbbacba4179f51e8839af79e841374\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b7dbbacba4179f51e8839af79e841374\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\fbcc02d9568d9a61c5d0a61056c1e7be\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\fbcc02d9568d9a61c5d0a61056c1e7be\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\736e0c5dee8d910c712f570ecd667eab\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\736e0c5dee8d910c712f570ecd667eab\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57ca9c2f65d4fb89fd862737d3e62368\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4b9168a05d122df069ed357399465c9a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4b9168a05d122df069ed357399465c9a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64a583efbc9aee3acc51be7e02c57679\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\64a583efbc9aee3acc51be7e02c57679\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3f0550d68b8625709893a6bc0bd0eb7c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3f0550d68b8625709893a6bc0bd0eb7c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db06439871dc631ddce61a46d2b299cb\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\db06439871dc631ddce61a46d2b299cb\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7853812f99a0763e05c4c0dcda91ae2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b7853812f99a0763e05c4c0dcda91ae2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ffcf85c4aa607c560ae4d98cdefacc8a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ffcf85c4aa607c560ae4d98cdefacc8a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\ce5e8d591631d597cbbc6eaf2565850e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\ce5e8d591631d597cbbc6eaf2565850e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\418d8f4dac09789ccedbfba3a87de14e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\418d8f4dac09789ccedbfba3a87de14e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\511340344df939153f087f68d7dd93f6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\511340344df939153f087f68d7dd93f6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\60972e45066c7198871c76f1231f5117\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\60972e45066c7198871c76f1231f5117\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\069861c8cd0055071508378d5cce6198\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\069861c8cd0055071508378d5cce6198\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\8bdbb6162f35a5260335df4cbb8c497d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\8bdbb6162f35a5260335df4cbb8c497d\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0b83107e577eedaeb93dc2b3fdc9ed8c\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57ca9c2f65d4fb89fd862737d3e62368\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0b83107e577eedaeb93dc2b3fdc9ed8c\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\57ca9c2f65d4fb89fd862737d3e62368\AndroidManifest.xml:27:13-51
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:12:5-81
+ADDED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:12:22-78
+		ADDED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:13:5-68
+ADDED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:13:5-68
 	android:name
-		ADDED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:13:22-65
+		ADDED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:13:22-65
 service#net.gotev.uploadservice.UploadService
-ADDED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:16:9-20:19
+ADDED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:16:9-20:19
 	android:enabled
-		ADDED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:18:13-35
+		ADDED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:18:13-35
 	android:exported
-		ADDED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:19:13-36
+		ADDED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from [net.gotev:uploadservice:2.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\542dc9d873fc0a18a98eb6484069e965\AndroidManifest.xml:17:13-65
+		ADDED from [net.gotev:uploadservice:2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\uploadservice-2.1.aar\c6f2327a88ad7c823cc20bd181ce1b30\AndroidManifest.xml:17:13-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:23:5-79
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:23:22-76
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:23:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\9dd92e90bc4a682006d7e0ad6675c783\AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\e8384581d64c3430e95a873c48023a6e\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\e8384581d64c3430e95a873c48023a6e\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\e8384581d64c3430e95a873c48023a6e\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\a545d8c60dec6f15ac2812f99ce2e029\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\e8384581d64c3430e95a873c48023a6e\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\37188f8bb09e5020cb4f35eb871ca7ea\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e581aa31248346c8268f05c4ff5383\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\37188f8bb09e5020cb4f35eb871ca7ea\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e581aa31248346c8268f05c4ff5383\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\37188f8bb09e5020cb4f35eb871ca7ea\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\14e581aa31248346c8268f05c4ff5383\AndroidManifest.xml:24:13-58
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\18bf3b9781161f276bcbde4e67761d31\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f3e45038b527840378470bd52e4e5165\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\18bf3b9781161f276bcbde4e67761d31\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f3e45038b527840378470bd52e4e5165\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Giulia\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\18bf3b9781161f276bcbde4e67761d31\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\f3e45038b527840378470bd52e4e5165\AndroidManifest.xml:26:13-58

@@ -8,7 +8,7 @@ package com.kd.dynamic.calendar.generator;
 
 public final class R {
     public static final class drawable {
-        public static final int ic_launcher = 0x7f08007f;
+        public static final int ic_launcher = 0x7f080081;
     }
     public static final class string {
         public static final int app_name = 0x7f0e001f;

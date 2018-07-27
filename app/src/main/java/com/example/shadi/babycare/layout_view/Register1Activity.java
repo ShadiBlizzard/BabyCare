@@ -18,30 +18,23 @@ import com.example.shadi.babycare.R;
 public class Register1Activity extends AppCompatActivity {
 
     private EditText edit1, edit2, edit3;
-    private RadioGroup radioGroup;
-    private RadioButton radio1;
     private TextView errorMsg;
-    private String role;
     private Button goOn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_register1);
         this.setTitle("Register");
         edit1 = findViewById(R.id.emailreg);
         edit2 = findViewById(R.id.passwordreg);
         edit3 = findViewById(R.id.password2reg);
-        radioGroup = findViewById(R.id.radioGroup);
         errorMsg = findViewById(R.id.errorregister);
         goOn = findViewById(R.id.goon1);
 
         goOn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int selectedId = radioGroup.getCheckedRadioButtonId();
-                radio1 = findViewById(selectedId);
-                role = radio1.getText().toString();
                 int result = checkParametersValidity();
                 if(result == 0)
                     goOn();
@@ -51,11 +44,10 @@ public class Register1Activity extends AppCompatActivity {
     }
 
     private void goOn () {
-        Intent intent = new Intent(this, Register2Activity.class);
+        Intent intent = new Intent(this, Register0Activity.class);
         Bundle b = new Bundle();
         b.putCharSequence("email", edit1.getText().toString());
         b.putCharSequence("password", edit2.getText().toString());
-        b.putCharSequence("role", role);
         intent.putExtras(b);
         startActivity(intent);
     }

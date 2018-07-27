@@ -26,7 +26,6 @@
         android:label="BabyCare"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/BabyCare" >
         <activity
             android:name="com.example.shadi.babycare.layout_view.MainActivity"
@@ -79,6 +78,7 @@
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileBsFromBsActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileParFromParActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ReservationDetailsActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.Register0Activity" />
 
         <meta-data
             android:name="android.support.VERSION"
