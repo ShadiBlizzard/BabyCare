@@ -27,6 +27,7 @@ public class Register0Activity extends AppCompatActivity {
         bundle = intent.getExtras();
 
         radioGroup = findViewById(R.id.radioGroup);
+        goOn = findViewById(R.id.goon0);
 
         goOn.setOnClickListener(new View.OnClickListener() {
             @Override

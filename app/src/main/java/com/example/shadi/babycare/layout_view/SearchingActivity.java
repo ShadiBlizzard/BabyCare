@@ -2,7 +2,6 @@ package com.example.shadi.babycare.layout_view;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
-import android.icu.util.Calendar;
 import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,6 +15,8 @@ import android.widget.Toast;
 
 import com.example.shadi.babycare.R;
 import com.google.android.gms.maps.MapView;
+
+import java.util.Calendar;
 
 
 public class SearchingActivity extends BaseActivity {

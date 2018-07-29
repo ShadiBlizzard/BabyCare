@@ -5,14 +5,14 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="24"
-        android:targetSdkVersion="26" />
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
 
     <!-- adding internet connection permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Include required permissions for Google Maps API to run. -->
+
+    <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
@@ -21,6 +21,7 @@
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="BabyCare"
@@ -79,17 +80,8 @@
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileBsFromBsActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileParFromParActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ReservationDetailsActivity" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-
-        <service
-            android:name="net.gotev.uploadservice.UploadService"
-            android:enabled="true"
-            android:exported="true" >
-        </service>
-
+        <activity android:name="com.example.shadi.babycare.layout_view.Register0Activity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.ReservingActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
@@ -99,8 +91,8 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
