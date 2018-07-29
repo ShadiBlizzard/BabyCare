@@ -21,12 +21,12 @@
 
     <application
         android:allowBackup="true"
-        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="BabyCare"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/BabyCare" >
         <activity
             android:name="com.example.shadi.babycare.layout_view.MainActivity"
@@ -71,9 +71,9 @@
         <activity android:name="com.example.shadi.babycare.layout_view.ReviewListActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ReviewFormActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ReviewActivity" />
-        <activity android:name="com.example.shadi.babycare.layout_view.ParentHomeActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.HomeActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.RegistrationKoActivity" />
-        <activity android:name="com.example.shadi.babycare.layout_view.FavListActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.ProfileListActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ResultsListActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileBsFromBsActivity" />
@@ -81,6 +81,8 @@
         <activity android:name="com.example.shadi.babycare.layout_view.ReservationDetailsActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.Register0Activity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ReservingActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.OkActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.HomeParentActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

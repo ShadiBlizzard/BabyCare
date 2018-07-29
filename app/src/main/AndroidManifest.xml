@@ -56,16 +56,18 @@
         <activity android:name=".layout_view.ReviewListActivity" />
         <activity android:name=".layout_view.ReviewFormActivity" />
         <activity android:name=".layout_view.ReviewActivity" />
-        <activity android:name=".layout_view.ParentHomeActivity" />
+        <activity android:name=".layout_view.HomeActivity" />
         <activity android:name=".layout_view.RegistrationKoActivity" />
-        <activity android:name=".layout_view.FavListActivity" />
+        <activity android:name=".layout_view.ProfileListActivity" />
         <activity android:name=".layout_view.ProfileActivity" />
         <activity android:name=".layout_view.ResultsListActivity" />
         <activity android:name=".layout_view.ProfileBsFromBsActivity" />
         <activity android:name=".layout_view.ProfileParFromParActivity" />
         <activity android:name=".layout_view.ReservationDetailsActivity" />
         <activity android:name=".layout_view.Register0Activity" />
-        <activity android:name=".layout_view.ReservingActivity"></activity>
+        <activity android:name=".layout_view.ReservingActivity" />
+        <activity android:name=".layout_view.OkActivity" />
+        <activity android:name=".layout_view.HomeParentActivity"></activity>
     </application>
 
 </manifest>

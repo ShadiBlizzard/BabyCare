@@ -43,6 +43,9 @@ public class ReservationsListActivity extends BaseActivity {
         res.add(new Reservation("timestamp3", "ctr", "status"));
         res.add(new Reservation("timestamp4", "ctr", "status"));
         res.add(new Reservation("timestamp5", "ctr", "status"));
+        res.add(new Reservation("timestamp5", "ctr", "status"));
+        res.add(new Reservation("timestamp5", "ctr", "status"));
+        res.add(new Reservation("timestamp5", "ctr", "status"));
 
         resAdp = new ReservationAdapter(this, res);
         resList.setAdapter(resAdp);
