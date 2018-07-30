@@ -60,8 +60,8 @@
             android:name="com.example.shadi.babycare.layout_view.Register4Activity"
             android:parentActivityName="com.example.shadi.babycare.layout_view.Register3Activity" />
         <activity android:name="com.example.shadi.babycare.layout_view.MessagesListActivity" />
-        <activity android:name="com.example.shadi.babycare.layout_view.MessageActivity" />
-        <activity android:name="com.example.shadi.babycare.layout_view.MessageFormActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.ResRequestActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.AnswerFormActivity" />
         <activity
             android:name="com.example.shadi.babycare.layout_view.PolicyActivity"
             android:parentActivityName="com.example.shadi.babycare.layout_view.BaseActivity" />
@@ -83,6 +83,7 @@
         <activity android:name="com.example.shadi.babycare.layout_view.OkActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.HomeParentActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.KoActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.AnswerToResActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

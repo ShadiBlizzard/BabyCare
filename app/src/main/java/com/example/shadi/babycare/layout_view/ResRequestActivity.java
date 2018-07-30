@@ -10,7 +10,6 @@ import com.example.shadi.babycare.R;
 
 public class ResRequestActivity extends BaseActivity {
     private TextView timestamp, sender, text, from, to, date, location;
-    private Button accept, reject;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +29,5 @@ public class ResRequestActivity extends BaseActivity {
         to = findViewById(R.id.res_msg_to);
         location = findViewById(R.id.res_msg_loc);
 
-        accept = findViewById(R.id.button_accept);
-        reject = findViewById(R.id.button_reject);
     }
 }
