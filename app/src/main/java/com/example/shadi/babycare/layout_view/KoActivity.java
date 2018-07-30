@@ -9,19 +9,20 @@ import android.widget.FrameLayout;
 
 import com.example.shadi.babycare.R;
 
+public class KoActivity extends BaseActivity {
 
-public class OkActivity extends BaseActivity {
-
-    private Button ok;
+    private Button error;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         FrameLayout fl = findViewById(R.id.content_frame);
-        getLayoutInflater().inflate(R.layout.activity_ok, fl);
-        super.setTitle("Success");
-        ok = findViewById(R.id.success_but);
+        getLayoutInflater().inflate(R.layout.activity_ko, fl);
 
-        ok.setOnClickListener(new View.OnClickListener() {
+        super.setTitle("Error");
+
+        error = findViewById(R.id.error_but);
+
+        error.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), HomeParentActivity.class);

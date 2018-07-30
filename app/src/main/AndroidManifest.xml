@@ -67,7 +67,8 @@
         <activity android:name=".layout_view.Register0Activity" />
         <activity android:name=".layout_view.ReservingActivity" />
         <activity android:name=".layout_view.OkActivity" />
-        <activity android:name=".layout_view.HomeParentActivity"></activity>
+        <activity android:name=".layout_view.HomeParentActivity" />
+        <activity android:name=".layout_view.KoActivity"></activity>
     </application>
 
 </manifest>
