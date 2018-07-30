@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".layout_view.MessageFormActivity">
+    tools:context=".layout_view.AnswerFormActivity">
 
 
     <TextView
@@ -65,7 +65,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/button"
-        android:text="send"
+        android:text="send answer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

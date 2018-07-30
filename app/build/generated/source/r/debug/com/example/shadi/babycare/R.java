@@ -5338,8 +5338,8 @@ public final class R {
     public static final int activity_ko=0x7f0c001e;
     public static final int activity_login=0x7f0c001f;
     public static final int activity_main=0x7f0c0020;
-    public static final int activity_message=0x7f0c0021;
-    public static final int activity_message_form=0x7f0c0022;
+    public static final int activity_res_request =0x7f0c0021;
+    public static final int activity_answer_form =0x7f0c0022;
     public static final int activity_messages_list=0x7f0c0023;
     public static final int activity_ok=0x7f0c0024;
     public static final int activity_policy=0x7f0c0025;
