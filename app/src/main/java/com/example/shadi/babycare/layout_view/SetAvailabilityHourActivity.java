@@ -20,6 +20,6 @@ public class SetAvailabilityHourActivity extends BaseActivity {
         month = intent.getIntExtra("month", 0);
         day = intent.getIntExtra("day", 0);
 
-        super.setTitle("Choose time");
+        super.setTitle("Choose times");
     }
 }

@@ -29,7 +29,6 @@ MERGED from [com.android.support:cardview-v7:28.0.0-alpha1] C:\Users\giuli\.grad
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\bbd5b7526347ce0b6d5f77e72fa0bddf\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\b53daeb3dca9a5a6e573f9876024a5be\AndroidManifest.xml:17:1-27:12
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:2:1-11:12
-MERGED from [com.xeoh.android:checkboxgroup:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\checkboxgroup-1.0.1.aar\cb91ad465a4b76098f69b7e19848899d\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:17:1-32:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha1.aar\a198e001363b0fa32b8a1d2c14b8e9a5\AndroidManifest.xml:17:1-23:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha1.aar\7d2e353f3718d6b004a45ac2ac76f3df\AndroidManifest.xml:17:1-22:12
@@ -149,8 +148,6 @@ MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradl
 MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\b53daeb3dca9a5a6e573f9876024a5be\AndroidManifest.xml:25:5-20
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:9:5-20
-MERGED from [com.xeoh.android:checkboxgroup:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\checkboxgroup-1.0.1.aar\cb91ad465a4b76098f69b7e19848899d\AndroidManifest.xml:11:5-15:19
-MERGED from [com.xeoh.android:checkboxgroup:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\checkboxgroup-1.0.1.aar\cb91ad465a4b76098f69b7e19848899d\AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:30:5-20
 MERGED from [com.android.support:design-animation:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-animation-28.0.0-alpha1.aar\eaee15b7bb909783208fbc51af202fd8\AndroidManifest.xml:22:5-20
@@ -189,7 +186,6 @@ MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] C:\Users\giuli\.
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:14:9-33
-		REJECTED from [com.xeoh.android:checkboxgroup:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\checkboxgroup-1.0.1.aar\cb91ad465a4b76098f69b7e19848899d\AndroidManifest.xml:13:9-41
 	android:roundIcon
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:15:9-54
 	android:icon
@@ -412,8 +408,6 @@ MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradl
 MERGED from [com.github.sillebille:dynamic-calendar:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\dynamic-calendar-1.0.1.aar\b53daeb3dca9a5a6e573f9876024a5be\AndroidManifest.xml:21:5-23:41
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\889df04a373c2ed6ce8946ed6ac1df13\AndroidManifest.xml:5:5-7:41
-MERGED from [com.xeoh.android:checkboxgroup:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\checkboxgroup-1.0.1.aar\cb91ad465a4b76098f69b7e19848899d\AndroidManifest.xml:7:5-9:41
-MERGED from [com.xeoh.android:checkboxgroup:1.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\checkboxgroup-1.0.1.aar\cb91ad465a4b76098f69b7e19848899d\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7204639ccf86dc77b9b505f052ec143f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha1.aar\a198e001363b0fa32b8a1d2c14b8e9a5\AndroidManifest.xml:21:5-44
