@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.shadi.babycare">
 
     <!-- adding internet connection permission -->
@@ -7,6 +8,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
+        tools:replace="android:label"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="BabyCare"
@@ -47,7 +49,6 @@
             android:parentActivityName=".layout_view.Register3Activity" />
         <activity android:name=".layout_view.MessagesListActivity" />
         <activity android:name=".layout_view.ResRequestActivity" />
-        <activity android:name=".layout_view.AnswerFormActivity" />
         <activity
             android:name=".layout_view.PolicyActivity"
             android:parentActivityName=".layout_view.BaseActivity" />
@@ -69,7 +70,9 @@
         <activity android:name=".layout_view.OkActivity" />
         <activity android:name=".layout_view.HomeParentActivity" />
         <activity android:name=".layout_view.KoActivity" />
-        <activity android:name=".layout_view.ResRequestAnswerActivity"></activity>
+        <activity android:name=".layout_view.ResRequestAnswerActivity" />
+        <activity android:name=".layout_view.SetAvailabilityActivity" />
+        <activity android:name=".layout_view.SetAvailabilityHourActivity"></activity>
     </application>
 
 </manifest>
