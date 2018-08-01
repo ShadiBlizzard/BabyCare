@@ -1,6 +1,7 @@
 package com.example.shadi.babycare.layout_view;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -10,6 +11,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import com.example.shadi.babycare.R;
+
+import java.util.Locale;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -26,6 +29,13 @@ public class BaseActivity extends AppCompatActivity {
         mDrLayout.addDrawerListener(mToggle);
         mToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //changing language
+        Locale locale = new Locale("en_US");
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getApplicationContext().getResources().updateConfiguration(config, null);
 
         //code for clicked navi item
         nv.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {

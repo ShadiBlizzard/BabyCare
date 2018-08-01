@@ -23,17 +23,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <CalendarView
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
         android:id="@+id/set_calendar"
         android:layout_width="316dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@color/mainColor"
         android:layout_marginStart="8dp"
         android:layout_marginTop="28dp"
-        android:minDate="01/01/2018"
+        android:background="@color/button_babycare_disabled"
         android:firstDayOfWeek="2"
+        android:minDate="01/01/2018"
+        app:mcv_selectionColor="@color/button_babycare_normal"
+        app:mcv_dateTextAppearance="@style/textCalendar"
+        app:mcv_headerTextAppearance="@style/textCalendar"
+        app:mcv_weekDayTextAppearance="@style/textCalendar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"></CalendarView>
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.0"></com.prolificinteractive.materialcalendarview.MaterialCalendarView>
 </android.support.constraint.ConstraintLayout>

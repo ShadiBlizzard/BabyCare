@@ -8,10 +8,13 @@ import android.widget.CalendarView;
 import android.widget.FrameLayout;
 
 import com.example.shadi.babycare.R;
+import com.prolificinteractive.materialcalendarview.CalendarDay;
+import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
+import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
 
 public class SetAvailabilityActivity extends BaseActivity {
 
-    private CalendarView calendar;
+    private MaterialCalendarView calendar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,18 +24,18 @@ public class SetAvailabilityActivity extends BaseActivity {
 
         calendar = findViewById(R.id.set_calendar);
 
-        calendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+        calendar.setOnDateChangedListener(new OnDateSelectedListener() {
             @Override
-            public void onSelectedDayChange(CalendarView calendarView, int year, int month, int day) {
+            public void onDateSelected( MaterialCalendarView materialCalendarView, CalendarDay calendarDay, boolean b) {
                 Intent chosenDate = new Intent(getApplicationContext(), SetAvailabilityHourActivity.class);
-                chosenDate.putExtra("year", year);
-                chosenDate.putExtra("month", month);
-                chosenDate.putExtra("day", day);
+
+                chosenDate.putExtra("year", calendarDay.getYear());
+                chosenDate.putExtra("month", calendarDay.getMonth());
+                chosenDate.putExtra("day", calendarDay.getDate());
 
                 startActivity(chosenDate);
                 //TODO qui è necessaria una comunicazione col backend, di modo che l'activity
                 //per scegliere le ore abbia le fasce orarie già checkate nel caso sia già stata impostata
-
             }
         });
 

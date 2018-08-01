@@ -22,6 +22,12 @@
         <item name="android:textColor">@color/text_color_babycare</item>
     </style>
 
+    <style name="textCalendar" parent="android:style/TextAppearance.Medium">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/text_color_babycare</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+    </style>
+
     <style name ="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
         <item name="android:fontFamily">casual</item>
         <item name="android:textColorPrimary">#000000</item>

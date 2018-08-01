@@ -4,28 +4,28 @@
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_res_request.xml.flat",
-        "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_res_request.xml"
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\e8384581d64c3430e95a873c48023a6e\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\layout\\abc_tooltip.xml"
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_res_request.xml.flat",
+        "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_res_request.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\layout\\abc_tooltip.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\design-button-28.0.0-alpha1.aar\\699f52a42ccbe1b1bc4e650fab97c488\\res\\color\\mtrl_btn_ripple_color.xml"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\e8384581d64c3430e95a873c48023a6e\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reservation_details.xml.flat",
         "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_reservation_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -124,16 +124,20 @@
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\design-textfield-28.0.0-alpha1.aar\\a83b50491ec2a7b0770eb71cc3db3f4d\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
     {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mcv_action_previous.png.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\material-calendarview-1.6.0.aar\\169f43c1a4fdac98ad54f3ca5af4919f\\res\\drawable-xxxhdpi-v4\\mcv_action_previous.png"
+    },
+    {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0-alpha1.aar\\873350a74b5dc9a169b2ed7528a0c134\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\design-textfield-28.0.0-alpha1.aar\\a83b50491ec2a7b0770eb71cc3db3f4d\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
-    },
-    {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
         "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\design-textfield-28.0.0-alpha1.aar\\a83b50491ec2a7b0770eb71cc3db3f4d\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -188,24 +192,24 @@
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\e8384581d64c3430e95a873c48023a6e\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_policy.xml.flat",
         "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -224,12 +228,16 @@
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\e8384581d64c3430e95a873c48023a6e\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\color_mcv_text_date_light.xml.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\material-calendarview-1.6.0.aar\\169f43c1a4fdac98ad54f3ca5af4919f\\res\\color\\mcv_text_date_light.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\e8384581d64c3430e95a873c48023a6e\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
@@ -548,6 +556,10 @@
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_mcv_action_next.png.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\material-calendarview-1.6.0.aar\\169f43c1a4fdac98ad54f3ca5af4919f\\res\\drawable-xxxhdpi-v4\\mcv_action_next.png"
+    },
+    {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_bottom_navigation_item_background.xml.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\design-internal-28.0.0-alpha1.aar\\11ea73300c9eeb3388805acd269e4564\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
@@ -669,7 +681,7 @@
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\511340344df939153f087f68d7dd93f6\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\00e07cdbfea55ed8a1d3150ca556ae07\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
@@ -733,7 +745,7 @@
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\511340344df939153f087f68d7dd93f6\\res\\layout\\notification_template_lines_media.xml"
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\00e07cdbfea55ed8a1d3150ca556ae07\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
@@ -1185,7 +1197,7 @@
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\511340344df939153f087f68d7dd93f6\\res\\layout\\notification_template_big_media_narrow.xml"
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\00e07cdbfea55ed8a1d3150ca556ae07\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1280,12 +1292,12 @@
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\design-chip-28.0.0-alpha1.aar\\1cd32fb44dd3d659e375a63a0870d745\\res\\animator\\mtrl_chip_state_list_anim.xml"
     },
     {
-        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_par_from_bs.xml.flat",
         "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_profile_par_from_bs.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_linear_out_slow_in.xml.flat",
@@ -1373,7 +1385,7 @@
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\511340344df939153f087f68d7dd93f6\\res\\layout\\notification_template_big_media_custom.xml"
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\00e07cdbfea55ed8a1d3150ca556ae07\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
@@ -1497,7 +1509,7 @@
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\511340344df939153f087f68d7dd93f6\\res\\layout\\notification_template_media_custom.xml"
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\00e07cdbfea55ed8a1d3150ca556ae07\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -1697,7 +1709,7 @@
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\511340344df939153f087f68d7dd93f6\\res\\layout\\notification_media_cancel_action.xml"
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\00e07cdbfea55ed8a1d3150ca556ae07\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -1849,7 +1861,7 @@
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\511340344df939153f087f68d7dd93f6\\res\\layout\\notification_template_big_media.xml"
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\00e07cdbfea55ed8a1d3150ca556ae07\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
@@ -1985,7 +1997,7 @@
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\511340344df939153f087f68d7dd93f6\\res\\layout\\notification_template_media.xml"
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\00e07cdbfea55ed8a1d3150ca556ae07\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -2104,6 +2116,10 @@
         "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\color_mcv_text_date_dark.xml.flat",
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\material-calendarview-1.6.0.aar\\169f43c1a4fdac98ad54f3ca5af4919f\\res\\color\\mcv_text_date_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
@@ -2121,7 +2137,7 @@
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
-        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\511340344df939153f087f68d7dd93f6\\res\\layout\\notification_media_action.xml"
+        "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\00e07cdbfea55ed8a1d3150ca556ae07\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
