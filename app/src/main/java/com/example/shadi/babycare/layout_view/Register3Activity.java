@@ -33,7 +33,7 @@ public class Register3Activity extends AppCompatActivity {
         goOn = findViewById(R.id.goon3);
         Intent intent = getIntent();
         bundle = intent.getExtras();
-
+    //TODO ADD DEFAULT VALUE TO SPINNER
         //setting the spinners with hardcoded data TODO here we have to extract data
         //https://stackoverflow.com/questions/9476665/how-to-change-spinner-text-size-and-text-color
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.planets_array,

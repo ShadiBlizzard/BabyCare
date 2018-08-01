@@ -3,18 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.shadi.babycare">
 
-    <!-- adding internet connection permission -->
+    <!-- adding permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
 
     <application
-        tools:replace="android:label"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="BabyCare"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/BabyCare">
+        android:theme="@style/BabyCare"
+        tools:replace="android:label">
         <activity
             android:name=".layout_view.MainActivity"
             android:theme="@style/BabyCare">
@@ -33,6 +36,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".layout_view.MainActivity" />
         </activity>
+        <activity android:name=".layout_view.Register0Activity"
+            android:parentActivityName=".layout_view.Register1Activity"/>
         <activity
             android:name=".layout_view.Register1Activity"
             android:parentActivityName=".layout_view.MainActivity" />
@@ -40,7 +45,7 @@
         <activity android:name=".layout_view.BaseActivity" />
         <activity
             android:name=".layout_view.Register2Activity"
-            android:parentActivityName=".layout_view.Register1Activity" />
+            android:parentActivityName=".layout_view.Register0Activity" />
         <activity
             android:name=".layout_view.Register3Activity"
             android:parentActivityName=".layout_view.Register2Activity" />
@@ -65,14 +70,14 @@
         <activity android:name=".layout_view.ProfileBsFromBsActivity" />
         <activity android:name=".layout_view.ProfileParFromParActivity" />
         <activity android:name=".layout_view.ReservationDetailsActivity" />
-        <activity android:name=".layout_view.Register0Activity" />
         <activity android:name=".layout_view.ReservingActivity" />
         <activity android:name=".layout_view.OkActivity" />
         <activity android:name=".layout_view.HomeParentActivity" />
         <activity android:name=".layout_view.KoActivity" />
         <activity android:name=".layout_view.ResRequestAnswerActivity" />
         <activity android:name=".layout_view.SetAvailabilityActivity" />
-        <activity android:name=".layout_view.SetAvailabilityHourActivity"></activity>
+        <activity android:name=".layout_view.SetAvailabilityHourActivity" />
+        <activity android:name=".layout_view.HomeBabysitterActivity"></activity>
     </application>
 
 </manifest>

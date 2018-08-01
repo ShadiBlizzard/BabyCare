@@ -1824,6 +1824,10 @@
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home_babysitter.xml.flat",
+        "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\layout\\activity_home_babysitter.xml"
+    },
+    {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\e5811e7fc6998530222c90d247b87eb6\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
@@ -1886,6 +1890,10 @@
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0-alpha1.aar\\873350a74b5dc9a169b2ed7528a0c134\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calicon.png.flat",
+        "source": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\src\\main\\res\\drawable\\calicon.png"
     },
     {
         "merged": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",

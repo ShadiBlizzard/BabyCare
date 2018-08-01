@@ -85,6 +85,7 @@
         <activity android:name="com.example.shadi.babycare.layout_view.ResRequestAnswerActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.SetAvailabilityActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.SetAvailabilityHourActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.HomeBabysitterActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

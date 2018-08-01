@@ -40,6 +40,8 @@ public class Register0Activity extends AppCompatActivity {
 
             }
         });
+
+        this.setTitle("Register");
     }
 
     private void goOn() {

@@ -14,8 +14,7 @@ import android.widget.Toolbar;
 import com.example.shadi.babycare.R;
 
 public class LoginActivity extends AppCompatActivity {
-
-    private Toolbar toolbar;
+;
     private EditText email;
     private EditText password;
     private Button login;
@@ -41,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void login() {
         //TODO verifico che cosa sia il client che fa il login, in base a quello lo reindirizzo alla home dedicata
-        Intent intent = new Intent(this, HomeParentActivity.class);
+        Intent intent = new Intent(this, HomeBabysitterActivity.class);
         startActivity(intent);
     }
 
