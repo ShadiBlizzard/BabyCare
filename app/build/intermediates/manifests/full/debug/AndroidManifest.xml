@@ -8,9 +8,12 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="28" />
 
-    <!-- adding internet connection permission -->
+    <!-- adding permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
 
     <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -46,13 +49,16 @@
                 android:value=".layout_view.MainActivity" />
         </activity>
         <activity
+            android:name="com.example.shadi.babycare.layout_view.Register0Activity"
+            android:parentActivityName="com.example.shadi.babycare.layout_view.Register1Activity" />
+        <activity
             android:name="com.example.shadi.babycare.layout_view.Register1Activity"
             android:parentActivityName="com.example.shadi.babycare.layout_view.MainActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.RegistrationOkActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.BaseActivity" />
         <activity
             android:name="com.example.shadi.babycare.layout_view.Register2Activity"
-            android:parentActivityName="com.example.shadi.babycare.layout_view.Register1Activity" />
+            android:parentActivityName="com.example.shadi.babycare.layout_view.Register0Activity" />
         <activity
             android:name="com.example.shadi.babycare.layout_view.Register3Activity"
             android:parentActivityName="com.example.shadi.babycare.layout_view.Register2Activity" />
@@ -72,12 +78,11 @@
         <activity android:name="com.example.shadi.babycare.layout_view.HomeActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.RegistrationKoActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileListActivity" />
-        <activity android:name="com.example.shadi.babycare.layout_view.ProfileActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.ProfileParFromBsActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ResultsListActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileBsFromBsActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileParFromParActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ReservationDetailsActivity" />
-        <activity android:name="com.example.shadi.babycare.layout_view.Register0Activity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ReservingActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.OkActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.HomeParentActivity" />
@@ -86,6 +91,7 @@
         <activity android:name="com.example.shadi.babycare.layout_view.SetAvailabilityActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.SetAvailabilityHourActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.HomeBabysitterActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.ProfileBsFromParActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

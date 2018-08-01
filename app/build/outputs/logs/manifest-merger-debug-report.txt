@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
 MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\52b48af9384e8431c73eaf7f9a8bd3b0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-bottomappbar-28.0.0-alpha1.aar\aff9ee617802dd53fc37479678737ed6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:design-theme:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-theme-28.0.0-alpha1.aar\63eefb0f80781fd215d5535f86338f95\AndroidManifest.xml:17:1-24:12
@@ -71,22 +71,22 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\giuli\.gradle\cach
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1977fc8a3a15f06c0a980adb6592e2a7\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1af8188fcf4238a1db4f256c6a688ebd\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7fef5265e38b7a463068a7a65ba20ed8\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
 	package
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:4:5-41
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-79:12
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-79:12
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:11-69
@@ -100,8 +100,16 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:8:5-80
 	android:name
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:9:22-76
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:11:19-63
 application
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:10:5-77:19
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:13:5-83:19
 MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\52b48af9384e8431c73eaf7f9a8bd3b0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\52b48af9384e8431c73eaf7f9a8bd3b0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-bottomappbar-28.0.0-alpha1.aar\aff9ee617802dd53fc37479678737ed6\AndroidManifest.xml:22:5-20
@@ -183,181 +191,187 @@ MERGED from [com.android.support:design-math:28.0.0-alpha1] C:\Users\giuli\.grad
 MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-snackbar-28.0.0-alpha1.aar\95a55bd5ce9261ae45e71de10d330396\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-snackbar-28.0.0-alpha1.aar\95a55bd5ce9261ae45e71de10d330396\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:13:9-33
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:16:9-33
 	android:roundIcon
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:19:9-40
 	tools:replace
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:17:9-38
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:20:9-38
 activity#com.example.shadi.babycare.layout_view.MainActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:theme
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:20:13-44
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:23:13-44
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:19:13-53
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:22:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:27:27-74
 activity#com.example.shadi.babycare.layout_view.LoginActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:parentActivityName
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:29:13-67
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:32:13-67
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:28:13-54
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:31:13-54
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:32:13-34:61
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:35:13-37:61
 	android:value
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:34:17-58
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:37:17-58
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:33:17-63
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:36:17-63
+activity#com.example.shadi.babycare.layout_view.Register0Activity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:39:9-41:75
+	android:parentActivityName
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:41:13-72
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:40:13-58
 activity#com.example.shadi.babycare.layout_view.Register1Activity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:36:9-38:70
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:42:9-44:70
 	android:parentActivityName
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:38:13-67
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:44:13-67
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:37:13-58
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:43:13-58
 activity#com.example.shadi.babycare.layout_view.RegistrationOkActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:39:9-72
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:45:9-72
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:39:19-69
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:45:19-69
 activity#com.example.shadi.babycare.layout_view.BaseActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:40:9-62
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:46:9-62
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:40:19-59
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:46:19-59
 activity#com.example.shadi.babycare.layout_view.Register2Activity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:41:9-43:75
-	android:parentActivityName
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:43:13-72
-	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:42:13-58
-activity#com.example.shadi.babycare.layout_view.Register3Activity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:44:9-46:75
-	android:parentActivityName
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:46:13-72
-	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:45:13-58
-activity#com.example.shadi.babycare.layout_view.Register4Activity
 ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:47:9-49:75
 	android:parentActivityName
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:49:13-72
 	android:name
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:48:13-58
-activity#com.example.shadi.babycare.layout_view.MessagesListActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:50:9-70
-	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:50:19-67
-activity#com.example.shadi.babycare.layout_view.ResRequestActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:51:9-68
-	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:51:19-65
-activity#com.example.shadi.babycare.layout_view.PolicyActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:52:9-54:70
+activity#com.example.shadi.babycare.layout_view.Register3Activity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:50:9-52:75
 	android:parentActivityName
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:54:13-67
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:52:13-72
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:53:13-55
-activity#com.example.shadi.babycare.layout_view.ReservationsListActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:55:9-74
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:51:13-58
+activity#com.example.shadi.babycare.layout_view.Register4Activity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:53:9-55:75
+	android:parentActivityName
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:55:13-72
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:55:19-71
-activity#com.example.shadi.babycare.layout_view.SearchingActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:56:9-67
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:54:13-58
+activity#com.example.shadi.babycare.layout_view.MessagesListActivity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:56:9-70
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:56:19-64
-activity#com.example.shadi.babycare.layout_view.ReviewListActivity
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:56:19-67
+activity#com.example.shadi.babycare.layout_view.ResRequestActivity
 ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:57:9-68
 	android:name
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:57:19-65
+activity#com.example.shadi.babycare.layout_view.PolicyActivity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:58:9-60:70
+	android:parentActivityName
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:60:13-67
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:59:13-55
+activity#com.example.shadi.babycare.layout_view.ReservationsListActivity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:61:9-74
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:61:19-71
+activity#com.example.shadi.babycare.layout_view.SearchingActivity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:62:9-67
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:62:19-64
+activity#com.example.shadi.babycare.layout_view.ReviewListActivity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:63:9-68
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:63:19-65
 activity#com.example.shadi.babycare.layout_view.ReviewFormActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:58:9-68
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:64:9-68
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:58:19-65
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:64:19-65
 activity#com.example.shadi.babycare.layout_view.ReviewActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:59:9-64
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:65:9-64
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:59:19-61
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:65:19-61
 activity#com.example.shadi.babycare.layout_view.HomeActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:60:9-62
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:66:9-62
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:60:19-59
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:66:19-59
 activity#com.example.shadi.babycare.layout_view.RegistrationKoActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:61:9-72
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:67:9-72
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:61:19-69
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:67:19-69
 activity#com.example.shadi.babycare.layout_view.ProfileListActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:62:9-69
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:68:9-69
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:62:19-66
-activity#com.example.shadi.babycare.layout_view.ProfileActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:63:9-65
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:68:19-66
+activity#com.example.shadi.babycare.layout_view.ProfileParFromBsActivity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:69:9-74
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:63:19-62
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:69:19-71
 activity#com.example.shadi.babycare.layout_view.ResultsListActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:64:9-69
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:70:9-69
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:64:19-66
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:70:19-66
 activity#com.example.shadi.babycare.layout_view.ProfileBsFromBsActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:65:9-73
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:71:9-73
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:65:19-70
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:71:19-70
 activity#com.example.shadi.babycare.layout_view.ProfileParFromParActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:66:9-75
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:72:9-75
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:66:19-72
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:72:19-72
 activity#com.example.shadi.babycare.layout_view.ReservationDetailsActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:67:9-76
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:73:9-76
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:67:19-73
-activity#com.example.shadi.babycare.layout_view.Register0Activity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:68:9-67
-	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:68:19-64
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:73:19-73
 activity#com.example.shadi.babycare.layout_view.ReservingActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:69:9-67
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:74:9-67
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:69:19-64
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:74:19-64
 activity#com.example.shadi.babycare.layout_view.OkActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:70:9-60
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:75:9-60
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:70:19-57
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:75:19-57
 activity#com.example.shadi.babycare.layout_view.HomeParentActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:71:9-68
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:76:9-68
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:71:19-65
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:76:19-65
 activity#com.example.shadi.babycare.layout_view.KoActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:72:9-60
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:77:9-60
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:72:19-57
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:77:19-57
 activity#com.example.shadi.babycare.layout_view.ResRequestAnswerActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:73:9-74
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:78:9-74
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:73:19-71
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:78:19-71
 activity#com.example.shadi.babycare.layout_view.SetAvailabilityActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:74:9-73
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:79:9-73
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:74:19-70
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:79:19-70
 activity#com.example.shadi.babycare.layout_view.SetAvailabilityHourActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:75:9-77
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:80:9-77
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:75:19-74
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:80:19-74
 activity#com.example.shadi.babycare.layout_view.HomeBabysitterActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:76:9-81
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:81:9-72
 	android:name
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:76:19-69
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:81:19-69
+activity#com.example.shadi.babycare.layout_view.ProfileBsFromParActivity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:82:9-83
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:82:19-71
 uses-sdk
 INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml

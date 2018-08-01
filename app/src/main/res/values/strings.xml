@@ -12,6 +12,7 @@
     <string name="close">close</string>
     <!--temporaneous hardcoding-->
     <string-array name="planets_array">
+        <item>Select</item>
         <item>Mercury</item>
         <item>Venus</item>
         <item>Earth</item>

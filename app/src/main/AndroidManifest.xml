@@ -7,8 +7,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-feature android:name="android.hardware.location.gps" />
 
+    <uses-feature android:name="android.hardware.location.gps" />
 
     <application
         android:allowBackup="true"
@@ -36,8 +36,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".layout_view.MainActivity" />
         </activity>
-        <activity android:name=".layout_view.Register0Activity"
-            android:parentActivityName=".layout_view.Register1Activity"/>
+        <activity
+            android:name=".layout_view.Register0Activity"
+            android:parentActivityName=".layout_view.Register1Activity" />
         <activity
             android:name=".layout_view.Register1Activity"
             android:parentActivityName=".layout_view.MainActivity" />
@@ -65,7 +66,7 @@
         <activity android:name=".layout_view.HomeActivity" />
         <activity android:name=".layout_view.RegistrationKoActivity" />
         <activity android:name=".layout_view.ProfileListActivity" />
-        <activity android:name=".layout_view.ProfileActivity" />
+        <activity android:name=".layout_view.ProfileParFromBsActivity" />
         <activity android:name=".layout_view.ResultsListActivity" />
         <activity android:name=".layout_view.ProfileBsFromBsActivity" />
         <activity android:name=".layout_view.ProfileParFromParActivity" />
@@ -77,7 +78,8 @@
         <activity android:name=".layout_view.ResRequestAnswerActivity" />
         <activity android:name=".layout_view.SetAvailabilityActivity" />
         <activity android:name=".layout_view.SetAvailabilityHourActivity" />
-        <activity android:name=".layout_view.HomeBabysitterActivity"></activity>
+        <activity android:name=".layout_view.HomeBabysitterActivity" />
+        <activity android:name=".layout_view.ProfileBsFromParActivity"></activity>
     </application>
 
 </manifest>

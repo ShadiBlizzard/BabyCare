@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import com.example.shadi.babycare.R;
 
-public class ProfileActivity extends BaseActivity {
+public class ProfileParFromBsActivity extends BaseActivity {
 
     private TextView name, surname;
     private TextView description, city, district, neighborhood, birthday;
@@ -15,7 +15,7 @@ public class ProfileActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         FrameLayout fl = findViewById(R.id.content_frame);
-        getLayoutInflater().inflate(R.layout.activity_profile, fl);
+        getLayoutInflater().inflate(R.layout.activity_profile_par_from_bs, fl);
 
         name = findViewById(R.id.name_pro);
         surname = findViewById(R.id.surname_pro);

@@ -5,7 +5,7 @@ import android.widget.FrameLayout;
 
 import com.example.shadi.babycare.R;
 
-public class ProfileBsFromBsActivity extends ProfileActivity {
+public class ProfileBsFromBsActivity extends ProfileParFromBsActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
