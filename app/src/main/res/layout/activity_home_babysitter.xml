@@ -9,6 +9,7 @@
         android:id="@+id/cal_ico_home"
         android:layout_width="250dp"
         android:layout_height="125dp"
+        android:tint="@color/secondColor"
         android:layout_marginTop="8dp"
         android:clickable="false"
         android:src="@drawable/calicon"

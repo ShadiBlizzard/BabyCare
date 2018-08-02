@@ -40,6 +40,7 @@ public final class R {
   }
   public static final class array {
     public static final int planets_array=0x7f030000;
+    public static final int planets_array1=0x7f030001;
   }
   public static final class attr {
     /**

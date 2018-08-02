@@ -32,16 +32,18 @@ public class ResultsListActivity extends BaseActivity {
     private void listCreation() {
         ArrayList<ProfileBs> bs= new ArrayList<>();
 
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
-        bs.add(new ProfileBs("Sbiribilla", "Volante", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
+
 
         adapter = new ProfileAdapter(this, bs);
         listView.setAdapter(adapter);

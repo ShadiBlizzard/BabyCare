@@ -56,6 +56,10 @@ public class BaseActivity extends AppCompatActivity {
                         Intent msgCaller = new Intent(getApplicationContext(), MessagesListActivity.class);
                         startActivity(msgCaller);
                         break;
+                    case R.id.nav_settings:
+                        //Intent logoutCaller = new Intent(getApplicationContext(), OkActivity.class);
+                        // startActivity(logoutCaller);
+                        break;
                     case R.id.nav_policy:
                         Intent policyCaller = new Intent(getApplicationContext(), PolicyActivity.class);
                         startActivity(policyCaller);
@@ -63,6 +67,10 @@ public class BaseActivity extends AppCompatActivity {
                     case R.id.nav_profile:
                         Intent profileCaller = new Intent(getApplicationContext(), ProfileParFromBsActivity.class);
                         startActivity(profileCaller);
+                        break;
+                    case R.id.nav_logout:
+                        //Intent logoutCaller = new Intent(getApplicationContext(), OkActivity.class);
+                       // startActivity(logoutCaller);
                         break;
                 }
 

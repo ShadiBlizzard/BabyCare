@@ -38,8 +38,10 @@ public class Register3Activity extends AppCompatActivity {
         //https://stackoverflow.com/questions/9476665/how-to-change-spinner-text-size-and-text-color
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.planets_array,
                 R.layout.spinner_item);
+        ArrayAdapter<CharSequence> districta = ArrayAdapter.createFromResource(this, R.array.planets_array1,
+                R.layout.spinner_item);
         adapter.setDropDownViewResource(R.layout.spinner_item);
-        district.setAdapter(adapter);
+        district.setAdapter(districta);
         neighborhood.setAdapter(adapter);
 
         //listener for district

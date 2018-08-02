@@ -31,7 +31,7 @@ public class SetAvailabilityActivity extends BaseActivity {
 
                 chosenDate.putExtra("year", calendarDay.getYear());
                 chosenDate.putExtra("month", calendarDay.getMonth());
-                chosenDate.putExtra("day", calendarDay.getDate());
+                chosenDate.putExtra("day", calendarDay.getDay());
 
                 startActivity(chosenDate);
                 //TODO qui è necessaria una comunicazione col backend, di modo che l'activity

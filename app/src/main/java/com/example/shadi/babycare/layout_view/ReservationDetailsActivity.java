@@ -23,8 +23,8 @@ public class ReservationDetailsActivity extends BaseActivity {
         getLayoutInflater().inflate(R.layout.activity_reservation_details, fl);
 
         status = findViewById(R.id.status_det);
-        name1 = findViewById(R.id.part_parent);
-        name2 = findViewById(R.id.part_bs);
+        name1 = findViewById(R.id.part_parent_name);
+        name2 = findViewById(R.id.part_bs_name);
         timestamp = findViewById(R.id.part_timestamp);
         address = findViewById(R.id.part_address);
         cl = findViewById(R.id.part_cons);
