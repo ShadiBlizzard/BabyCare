@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-86:12
 MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\52b48af9384e8431c73eaf7f9a8bd3b0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.prolificinteractive:material-calendarview:1.6.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\material-calendarview-1.6.0.aar\169f43c1a4fdac98ad54f3ca5af4919f\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-bottomappbar-28.0.0-alpha1.aar\aff9ee617802dd53fc37479678737ed6\AndroidManifest.xml:17:1-24:12
@@ -72,22 +72,22 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\giuli\.gradle\cach
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1977fc8a3a15f06c0a980adb6592e2a7\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1af8188fcf4238a1db4f256c6a688ebd\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7fef5265e38b7a463068a7a65ba20ed8\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-86:12
+INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-86:12
 	package
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:4:5-41
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-86:12
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-85:12
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:1-86:12
 		INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:2:11-69
@@ -110,7 +110,7 @@ ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:11:19-63
 application
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:13:5-83:19
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:13:5-84:19
 MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\52b48af9384e8431c73eaf7f9a8bd3b0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\52b48af9384e8431c73eaf7f9a8bd3b0\AndroidManifest.xml:22:5-20
 MERGED from [com.github.prolificinteractive:material-calendarview:1.6.0] C:\Users\giuli\.gradle\caches\transforms-1\files-1.1\material-calendarview-1.6.0.aar\169f43c1a4fdac98ad54f3ca5af4919f\AndroidManifest.xml:11:5-20
@@ -368,9 +368,13 @@ ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:81:19-69
 activity#com.example.shadi.babycare.layout_view.ProfileBsFromParActivity
-ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:82:9-83
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:82:9-74
 	android:name
 		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:82:19-71
+activity#com.example.shadi.babycare.layout_view.UpdateProfileActivity
+ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:83:9-80
+	android:name
+		ADDED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml:83:19-68
 uses-sdk
 INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\giuli\StudioProjects\BabyCare\app\src\main\AndroidManifest.xml
