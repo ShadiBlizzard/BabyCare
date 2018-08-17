@@ -16,7 +16,10 @@ import android.widget.Toast;
 import com.example.shadi.babycare.R;
 import com.google.android.gms.maps.MapView;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.Calendar;
+import java.util.Date;
 
 
 public class SearchingActivity extends BaseActivity {
@@ -28,7 +31,8 @@ public class SearchingActivity extends BaseActivity {
     private Calendar mCurrentDate, mCurrentTime;
     private Button search;
     private int yearChosen, monthChosen, dayChosen, startingHourChosen, endingHourChosen, startingMinuteChosen, endingMinuteChosen;
-
+    private LocalDate ld;
+    private LocalTime lt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -145,6 +149,7 @@ public class SearchingActivity extends BaseActivity {
             t.show();
         }
 
+        //ld = LocalDate.of(yearChosen, monthChosen, dayChosen);
 
 
     }

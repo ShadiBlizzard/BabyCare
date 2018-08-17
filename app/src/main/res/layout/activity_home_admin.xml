@@ -24,7 +24,7 @@
 
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/adm_parents"
         android:layout_width="151dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -35,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/adm_bs"
         android:layout_width="156dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -45,7 +45,7 @@
         android:text="babysitters"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/adm_parents"
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <android.support.constraint.Guideline
@@ -63,7 +63,7 @@
         app:layout_constraintGuide_begin="20dp" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/adm_not"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
@@ -73,5 +73,18 @@
         android:text="send notification"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/adm_parents" />
+
+    <Button
+        android:id="@+id/adm_act"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="activate user"
+        android:background="@drawable/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adm_not" />
 </android.support.constraint.ConstraintLayout>
