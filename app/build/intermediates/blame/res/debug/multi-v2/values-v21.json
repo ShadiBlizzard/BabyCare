@@ -61,6 +61,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\leakcanary-android-1.5.1.aar\\571e4d2f8cb85f7afa3a133d1669b190\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "140"
+                    },
+                    "to": {
+                        "startLines": "315",
+                        "startColumns": "4",
+                        "startOffsets": "22371",
+                        "endLines": "316",
+                        "endColumns": "10",
+                        "endOffsets": "22456"
+                    }
+                },
+                {
                     "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\design-typography-28.0.0-alpha1.aar\\561648ce0638e3832cca52cdda1a8486\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,9,16,23",

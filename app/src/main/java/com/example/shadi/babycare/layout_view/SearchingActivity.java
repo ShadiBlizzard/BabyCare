@@ -20,6 +20,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 
 public class SearchingActivity extends BaseActivity {
@@ -148,6 +149,11 @@ public class SearchingActivity extends BaseActivity {
             Toast t = Toast.makeText(this, "set correct time space", Toast.LENGTH_SHORT);
             t.show();
         }
+
+
+        Date d = new Date(yearChosen, monthChosen, dayChosen);
+
+
 
         //ld = LocalDate.of(yearChosen, monthChosen, dayChosen);
 

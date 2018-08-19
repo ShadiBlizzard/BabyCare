@@ -34,4 +34,25 @@ dependencies {
     implementation 'com.github.prolificinteractive:material-calendarview:1.6.0'
 
     implementation 'com.google.android.gms:play-services-maps:15.0.1'
+
+    //connection implementations
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.8.0'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.3.0'
+
+
+
+    implementation 'com.jakewharton:butterknife:8.6.0'
+
+    implementation 'com.basgeekball:awesome-validation:2.0'
+
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    implementation 'com.facebook.android:facebook-android-sdk:4.35.0'
+
+    testImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.1'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
 }
