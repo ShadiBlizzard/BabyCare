@@ -18,6 +18,7 @@ public class ReservationDetailsActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //TODO backend call per dettagli reservation
         super.onCreate(savedInstanceState);
         FrameLayout fl = findViewById(R.id.content_frame);
         getLayoutInflater().inflate(R.layout.activity_reservation_details, fl);
@@ -48,10 +49,9 @@ public class ReservationDetailsActivity extends BaseActivity {
         cs.applyTo(cl);
 
 
-        if (stat.equals("PENDING")) {
-            opt.setText("Cancel reservation");
+        //TODO impostazione tasto in base a stato reservation
 
 
         }
     }
-}
+

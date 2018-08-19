@@ -16,6 +16,7 @@ public class ReviewActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //TODO dettagli review
         super.onCreate(savedInstanceState);
         //this is needed in order to have the drawer in all activities
         FrameLayout fl = findViewById(R.id.content_frame);

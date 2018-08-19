@@ -21,6 +21,7 @@ public class ReservationsListActivity extends BaseActivity {
     private ReservationAdapter resAdp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //TODO backend call per lista reservation
         super.onCreate(savedInstanceState);
         //this is needed in order to have the drawer in all activities
         FrameLayout fl = findViewById(R.id.content_frame);

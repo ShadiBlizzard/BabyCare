@@ -45,6 +45,7 @@ public class Register0Activity extends AppCompatActivity {
     }
 
     private void goOn() {
+        //TODO in base a come è stato fatto il backend il bundle serve o meno (se passiamo ogni pagina non serve)
         bundle.putCharSequence("role", role);
         Intent it = new Intent(this, Register2Activity.class);
         it.putExtras(bundle);

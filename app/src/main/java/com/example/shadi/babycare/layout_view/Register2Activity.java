@@ -39,6 +39,7 @@ public class Register2Activity extends AppCompatActivity {
         goOn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //TODO in base a come è stato fatto il backend il bundle serve o meno (se passiamo ogni pagina non serve)
                 int result = checkInputValidity ();
                 if (result == 0)
                     goOn();

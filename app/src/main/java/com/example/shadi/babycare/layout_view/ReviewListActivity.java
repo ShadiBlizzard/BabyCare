@@ -23,6 +23,7 @@ public class ReviewListActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //TODO backend call, ritrovo tutte le review di un profilo
         super.onCreate(savedInstanceState);
 
         //this is needed in order to have the drawer in all activities

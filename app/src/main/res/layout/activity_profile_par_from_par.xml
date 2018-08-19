@@ -7,6 +7,7 @@
     tools:context=".layout_view.ProfileParFromParActivity">
 
     <Button
+        android:id="@+id/update_profile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"

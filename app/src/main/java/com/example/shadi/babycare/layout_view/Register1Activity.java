@@ -44,6 +44,7 @@ public class Register1Activity extends AppCompatActivity {
     }
 
     private void goOn () {
+        //TODO in base a come è stato fatto il backend il bundle serve o meno (se passiamo ogni pagina non serve)
         Intent intent = new Intent(this, Register0Activity.class);
         Bundle b = new Bundle();
         b.putCharSequence("email", edit1.getText().toString());

@@ -19,6 +19,7 @@ public class ResultsListActivity extends BaseActivity {
     private ProfileAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //TODO backend call, profile call per babysitter disponibili
         super.onCreate(savedInstanceState);
         FrameLayout fl = findViewById(R.id.content_frame);
         getLayoutInflater().inflate(R.layout.activity_results_list, fl);
@@ -50,7 +51,7 @@ public class ResultsListActivity extends BaseActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //manda ai profili
+                //TODO backend call per dettagli profilo
             }
         });
 

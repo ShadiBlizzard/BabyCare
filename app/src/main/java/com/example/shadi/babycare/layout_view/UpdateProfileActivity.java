@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -19,6 +20,7 @@ public class UpdateProfileActivity extends BaseActivity {
     private EditText city, description;
     private Spinner district, neighbourhood;
     private CharSequence spinner1, spinner2;
+    private Button update;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,7 @@ public class UpdateProfileActivity extends BaseActivity {
         description = findViewById(R.id.update_descr);
         district = findViewById(R.id.upd_district);
         neighbourhood = findViewById(R.id.upd_neighbourhood);
+        update = findViewById(R.id.update);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.planets_array,
                 R.layout.spinner_item);
@@ -66,6 +69,13 @@ public class UpdateProfileActivity extends BaseActivity {
         });
 
         super.setTitle("Update profile");
+
+        update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO backend call, manda le modifiche del profilo fatte
+            }
+        });
 
     }
 }

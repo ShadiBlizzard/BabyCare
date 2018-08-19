@@ -36,6 +36,7 @@ public class SearchingActivity extends BaseActivity {
     private LocalTime lt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //TODO PINS PER INDIRIZZO
         super.onCreate(savedInstanceState);
         //this is needed in order to have the drawer in all activities
         FrameLayout fl = findViewById(R.id.content_frame);

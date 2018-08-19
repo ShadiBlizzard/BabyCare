@@ -58,7 +58,7 @@ public class ProfileListActivity extends BaseActivity {
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    //manda ai profili
+                    //TODO backend call dettagli profilo
                 }
             });
         }

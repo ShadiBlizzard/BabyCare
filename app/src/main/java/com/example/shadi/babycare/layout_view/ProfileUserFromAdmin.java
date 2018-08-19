@@ -12,5 +12,7 @@ public class ProfileUserFromAdmin extends ProfileParFromBsActivity {
         super.onCreate(savedInstanceState);
         ConstraintLayout cl = findViewById(R.id.profile_variable_content);
         getLayoutInflater().inflate(R.layout.activity_profile_user_from_admin, cl);
+
+        //TODO ACTIVITIES PER ATTIVAZIONE E SEND NOTIFICATION
     }
 }
