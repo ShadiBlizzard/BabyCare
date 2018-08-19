@@ -22,6 +22,7 @@ public class ProfileListActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //TODO backend call, creazione di una lista in base alla richiesta dell'utente
         super.onCreate(savedInstanceState);
         FrameLayout fl = findViewById(R.id.content_frame);
         getLayoutInflater().inflate(R.layout.activity_profile_list, fl);

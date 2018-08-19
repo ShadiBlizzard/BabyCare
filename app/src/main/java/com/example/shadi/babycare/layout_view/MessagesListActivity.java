@@ -35,6 +35,7 @@ public class MessagesListActivity extends BaseActivity {
     }
 
     public void listCreation () {
+        //TODO BACKEND CALL
         //temporaneous hardcoding
         ArrayList<Message> obj = new ArrayList<>();
         obj.add(new Message("sender1", "timestamp1"));

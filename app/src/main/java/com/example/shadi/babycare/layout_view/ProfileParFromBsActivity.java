@@ -13,6 +13,7 @@ public class ProfileParFromBsActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //TODO backend call, profile details
         super.onCreate(savedInstanceState);
         FrameLayout fl = findViewById(R.id.content_frame);
         getLayoutInflater().inflate(R.layout.activity_profile_par_from_bs, fl);

@@ -94,6 +94,7 @@
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileBsFromParActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.UpdateProfileActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.HomeAdminActivity" />
+        <activity android:name="com.example.shadi.babycare.layout_view.ProfileUserFromAdmin" />
 
         <service
             android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"

@@ -19,7 +19,7 @@ public class PolicyActivity extends BaseActivity {
         getLayoutInflater().inflate(R.layout.activity_policy, fl);
 
         NavigationView nv = findViewById(R.id.nav_view);
-        nv.getMenu().getItem(5).setChecked(true);
+        nv.getMenu().getItem(4).setChecked(true);
 
         super.setTitle("Policy");
         text = findViewById(R.id.policy);

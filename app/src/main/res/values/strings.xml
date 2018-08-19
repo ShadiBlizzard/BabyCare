@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">BabyCare</string>
     <string name="home">HOME</string>
-    <string name="messages">MESSAGES</string>
+    <string name="messages">NOTIFICATIONS</string>
     <string name="reservations">RESERVATIONS</string>
     <string name="invite">INVITE</string>
     <string name="profile">PROFILE</string>
