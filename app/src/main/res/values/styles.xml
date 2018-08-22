@@ -1,5 +1,5 @@
 <resources>
-    <style name="BabyCare" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="BabyCare" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:colorBackground">@color/babycare_background</item>
         <item name="android:textColorPrimary">@color/text_color_babycare</item>
         <item name="android:textSize">20dp</item>
