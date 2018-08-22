@@ -11,6 +11,7 @@ import com.example.shadi.babycare.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -18,7 +19,7 @@ public class SetAvailabilityHourActivity extends BaseActivity {
 
     private int year, month, day;
     private Button send;
-    private Map<CheckBox, Boolean> hours = new HashMap<>();
+    private Map<CheckBox, Boolean> hours = new LinkedHashMap<>();
     private List<CheckBox>predefined = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,10 +78,18 @@ public class SetAvailabilityHourActivity extends BaseActivity {
 
     private void periodHandler() {
         int startingHourPred, endingHourPred;
+        List<CheckBox> keyList = new ArrayList<>(hours.keySet());
+        //I set the hashmap value to true if the corresponding key checkbox is checked
+        for (int i=0; i<hours.size(); i++) {
+            CheckBox key = keyList.get(i);
+            if(key.isChecked())
+                hours.put(key, true);
+        }
 
         //FIRST: I check all the predefined periods
         if (predefined.get(0).isChecked()) {
              sendAvailability(0, 24);
+             hours.clear();
         }
         else {
             List<CheckBox> checked = new ArrayList<>();
@@ -94,6 +103,11 @@ public class SetAvailabilityHourActivity extends BaseActivity {
                     if(checked.get(0).getId() == predefined.get(1).getId()) {
                         startingHourPred = 8;
                         endingHourPred = 13;
+                        //I set the hashmap values to false if they correspond to the same period as above
+                        for (int i=8; i<13; i++) {
+                            CheckBox key = keyList.get(i);
+                            hours.put(key, false);
+                        }
                     }
                     else if(checked.get(0).getId() == predefined.get(2).getId()) {
                         startingHourPred = 13;
@@ -123,10 +137,40 @@ public class SetAvailabilityHourActivity extends BaseActivity {
                     //foolproof case
                 case 3:
                     sendAvailability(0, 24);
+                    //I do not need to check single checkbox
+                    hours.clear();
                     break;
                 default:
                     break;
             }
+
+            //SECOND: I check all the hourly periods
+
+            //now I cast two temporary values for periods
+            int tempStart = -1, tempEnd;
+            for (int i = 0; i<hours.size(); i++) {
+                //initialize the period, I start from the first checked checkbox
+                if(hours.get(keyList.get(i))) {
+                    if(tempStart==-1)
+                        tempStart = i;
+                    //if it is checked and I'm not in the last checkbox
+                    if(i<hours.size()-1) {
+                        //if the following checkbox is checked, update the end time to that of the following
+                        if (!hours.get(keyList.get(i + 1))) {
+                            tempEnd = i + 1;
+                            sendAvailability(tempStart, tempEnd);
+                            tempStart = -1;
+                        }
+                    }
+                    //if I'm in the last, no need to perform other checkings
+                    else {
+                        tempEnd = i+1;
+                        sendAvailability(tempStart, tempEnd);
+                    }
+
+                }
+            }
+
 
         }
 
