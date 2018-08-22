@@ -112,10 +112,20 @@ public class SetAvailabilityHourActivity extends BaseActivity {
                     else if(checked.get(0).getId() == predefined.get(2).getId()) {
                         startingHourPred = 13;
                         endingHourPred = 18;
+                        //I set the hashmap values to false if they correspond to the same period as above
+                        for (int i=13; i<18; i++) {
+                            CheckBox key = keyList.get(i);
+                            hours.put(key, false);
+                        }
                     }
                     else {
                         startingHourPred = 18;
                         endingHourPred= 24;
+                        //I set the hashmap values to false if they correspond to the same period as above
+                        for (int i=18; i<24; i++) {
+                            CheckBox key = keyList.get(i);
+                            hours.put(key, false);
+                        }
                     }
 
                     break;
