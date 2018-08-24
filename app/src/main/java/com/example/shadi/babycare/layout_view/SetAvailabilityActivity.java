@@ -16,6 +16,7 @@ import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -138,6 +139,23 @@ public class SetAvailabilityActivity extends BaseActivity {
 
 
     private void sendAvailability(int start, int end) {
-        //TODO DEVO FINIRE LA GESTIONE DELL'INPUT
+        //date selected
+        Calendar date = Calendar.getInstance();
+        date.set(year, month, day);
+
+        //times selected
+        Calendar startTime = Calendar.getInstance();
+        date.set(year, month, day);
+        startTime.set(Calendar.HOUR, start);
+        startTime.set(Calendar.MINUTE, 00);
+
+        Calendar endTime = Calendar.getInstance();
+        date.set(year, month, day);
+        endTime.set(Calendar.HOUR, end);
+        endTime.set(Calendar.MINUTE, 00);
+
+
+        //TODO BACKEND call, send a single availability
+        //Mando tre istanze di calendar da convertire poi
     }
 }

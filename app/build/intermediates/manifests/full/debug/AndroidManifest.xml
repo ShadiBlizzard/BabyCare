@@ -89,7 +89,6 @@
         <activity android:name="com.example.shadi.babycare.layout_view.KoActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ResRequestAnswerActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.SetAvailabilityActivity" />
-        <activity android:name="com.example.shadi.babycare.layout_view.SetAvailabilityHourActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.HomeBabysitterActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.ProfileBsFromParActivity" />
         <activity android:name="com.example.shadi.babycare.layout_view.UpdateProfileActivity" />

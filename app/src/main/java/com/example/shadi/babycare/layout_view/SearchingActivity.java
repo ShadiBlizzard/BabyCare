@@ -120,7 +120,17 @@ public class SearchingActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 dateTimeParametersConstraints();
-                //TODO robe da mandare al backend
+                Calendar date = Calendar.getInstance();
+                date.set(yearChosen, monthChosen, dayChosen);
+
+                Calendar startTime = Calendar.getInstance();
+                startTime.set(Calendar.HOUR, startingHourChosen);
+                startTime.set(Calendar.MINUTE, startingMinuteChosen);
+
+                Calendar endTime = Calendar.getInstance();
+                endTime.set(Calendar.HOUR, endingHourChosen);
+                endTime.set(Calendar.MINUTE, endingMinuteChosen);
+                //TODO robe da mandare al backend, mancano robe mappa
             }
         });
 
@@ -151,12 +161,6 @@ public class SearchingActivity extends BaseActivity {
             t.show();
         }
 
-
-        Date d = new Date(yearChosen, monthChosen, dayChosen);
-
-
-
-        //ld = LocalDate.of(yearChosen, monthChosen, dayChosen);
 
 
     }
