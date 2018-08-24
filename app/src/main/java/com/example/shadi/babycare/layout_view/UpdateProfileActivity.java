@@ -1,8 +1,14 @@
 package com.example.shadi.babycare.layout_view;
 
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.media.Image;
+import android.provider.MediaStore;
 import android.support.design.internal.NavigationMenu;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Base64;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -14,9 +20,12 @@ import android.widget.Spinner;
 
 import com.example.shadi.babycare.R;
 
+import java.io.ByteArrayOutputStream;
+
 public class UpdateProfileActivity extends BaseActivity {
 
     private ImageView pic;
+    private static final int SELECTED_PICTURE = 0;
     private EditText city, description;
     private Spinner district, neighbourhood;
     private CharSequence spinner1, spinner2;
@@ -74,6 +83,20 @@ public class UpdateProfileActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 //TODO backend call, manda le modifiche del profilo fatte
+
+                Bitmap image = ((BitmapDrawable) pic.getDrawable()).getBitmap();
+                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                image.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream);
+                byte[] byteArray = byteArrayOutputStream.toByteArray();
+                String encodedImage = Base64.encodeToString(byteArray, Base64.DEFAULT);
+            }
+        });
+
+        pic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                startActivityForResult(intent, SELECTED_PICTURE);
             }
         });
 

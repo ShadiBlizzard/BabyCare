@@ -1,18 +1,28 @@
 package com.example.shadi.babycare.layout_view;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.media.Image;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.MediaStore;
 
 import android.support.v7.app.AppCompatActivity;
 
+import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
 
 import android.widget.ImageView;
 
 import com.example.shadi.babycare.R;
+
+import org.apache.http.NameValuePair;
+
+import java.io.ByteArrayOutputStream;
+import java.util.ArrayList;
 
 
 public class Register4Activity extends AppCompatActivity implements View.OnClickListener{
@@ -58,39 +68,20 @@ public class Register4Activity extends AppCompatActivity implements View.OnClick
                 correctness that call RegisterOkActivity, One with error that will call RegiterErrorActivity
                 NOW I HARDCODE THE OK
                  */
+
+                Bitmap image = ((BitmapDrawable) img.getDrawable()).getBitmap();
+                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                image.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream);
+                byte[] byteArray = byteArrayOutputStream.toByteArray();
+                String encodedImage = Base64.encodeToString(byteArray, Base64.DEFAULT);
+
+
+
+                //hardcoded result
                 Intent ok = new Intent(this, RegistrationOkActivity.class);
                 startActivity(ok);
                 break;
         }
     }
 
-  /*  private class UploadImage extends AsyncTask<Void, Void, Void> {
-
-        Bitmap image;
-
-        public  UploadImage(Bitmap image) {
-            this.image=image;
-        }
-        @Override
-        protected void onPostExecute(Void aVoid) {
-            super.onPostExecute(aVoid);
-        }
-
-        @Override
-        protected Void doInBackground(Void... voids) {
-            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-            image.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream);
-            String encodedImage = Base64.encodeToString(byteArrayOutputStream.toByteArray(), Base64.DEFAULT);
-
-            ArrayList<NameValuePair> dataTosend = new ArrayList<>();
-            dataTosend.add(new BasicNameValuePair("image", encodedImage));
-
-
-            return null;
-        }
-    }
-
-    private HttpParams getHttpRequestParams() {
-
-    } */
 }
