@@ -2269,6 +2269,21 @@
             ]
         },
         {
+            "outputFile": "/Users/PadreLoco/Projects/BabyCare/app/build/intermediates/res/merged/debug/values-or_values-or.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/PadreLoco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha1.aar/2646bf19ffccafb6a30856cf3af37839/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,174,284,391,477,581,701,783,893,998,1104,1215,1318",
+                        "endColumns": "118,109,106,85,103,119,81,109,104,105,110,102,117",
+                        "endOffsets": "169,279,386,472,576,696,778,888,993,1099,1210,1313,1431"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/PadreLoco/Projects/BabyCare/app/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat",
             "map": [
                 {
@@ -2354,21 +2369,6 @@
                         "startOffsets": "1807,1965,2086,2214,2326,2414,2499,2573,2661,2749,2863,2974,3065,3156,3256,3373,3454,3539,3707,3801,3900,4017,4124",
                         "endColumns": "157,120,127,111,87,84,73,87,87,113,110,90,90,99,116,80,84,167,93,98,116,106,130",
                         "endOffsets": "1960,2081,2209,2321,2409,2494,2568,2656,2744,2858,2969,3060,3151,3251,3368,3449,3534,3702,3796,3895,4012,4119,4250"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/PadreLoco/Projects/BabyCare/app/build/intermediates/res/merged/debug/values-or_values-or.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/PadreLoco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha1.aar/2646bf19ffccafb6a30856cf3af37839/res/values-or/values-or.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,174,284,391,477,581,701,783,893,998,1104,1215,1318",
-                        "endColumns": "118,109,106,85,103,119,81,109,104,105,110,102,117",
-                        "endOffsets": "169,279,386,472,576,696,778,888,993,1099,1210,1313,1431"
                     }
                 }
             ]

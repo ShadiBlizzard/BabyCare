@@ -1,4 +1,7 @@
-#Thu Aug 02 11:10:57 CEST 2018
-base.0=C\:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Aug 23 15:48:05 CEST 2018
+base.0=/Users/PadreLoco/Projects/BabyCare/app/build/intermediates/transforms/dexMerger/debug/0
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/Users/PadreLoco/Projects/BabyCare/app/build/intermediates/transforms/dexMerger/debug/0
