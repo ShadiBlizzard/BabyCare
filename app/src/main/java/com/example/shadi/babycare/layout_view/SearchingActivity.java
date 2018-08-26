@@ -71,6 +71,7 @@ public class SearchingActivity extends BaseActivity {
                     }
                 }, year, month, day);
                 datePickerDialog.show();
+                datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis()-1000);
             }
         });
 

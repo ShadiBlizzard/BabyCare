@@ -1,6 +1,7 @@
 package com.example.shadi.babycare.layout_view;
 
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,12 +9,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.CheckBox;
+import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 
 import com.example.shadi.babycare.R;
-import com.prolificinteractive.materialcalendarview.CalendarDay;
-import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
-import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -24,8 +24,9 @@ import java.util.Map;
 
 public class SetAvailabilityActivity extends BaseActivity {
 
-    private MaterialCalendarView calendar;
-    private int year, month, day;
+    private EditText calendar;
+    private int yearChosen, monthChosen, dayChosen;
+    private Calendar mCurrentDate;
     private Button send;
     private Map<CheckBox, Boolean> hours = new LinkedHashMap<>();
     private CheckBox predefined;
@@ -36,9 +37,6 @@ public class SetAvailabilityActivity extends BaseActivity {
         getLayoutInflater().inflate(R.layout.activity_set_availability, fl);
         super.setTitle("Add availability");
 
-        calendar.state().edit()
-                .setMinimumDate(new Date())
-                .commit();
 
         calendar = findViewById(R.id.set_calendar);
 
@@ -76,18 +74,34 @@ public class SetAvailabilityActivity extends BaseActivity {
                 periodHandler();
             }
         });
-        calendar.setOnDateChangedListener(new OnDateSelectedListener() {
+        calendar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onDateSelected( MaterialCalendarView materialCalendarView, CalendarDay calendarDay, boolean b) {
+            public void onClick(View v) {
+                mCurrentDate = Calendar.getInstance();
+                int year = mCurrentDate.get(Calendar.YEAR);
+                int month = mCurrentDate.get(Calendar.MONTH);
+                int day = mCurrentDate.get(Calendar.DAY_OF_MONTH);
 
-                year = calendarDay.getYear();
-                month = calendarDay.getMonth();
-                day = calendarDay.getDay();
-                send = findViewById(R.id.send_avail);
+                DatePickerDialog datePickerDialog = new DatePickerDialog(SetAvailabilityActivity.this, R.style.DialogTheme, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        month++;
+                        calendar.setText(dayOfMonth+" - "+ month +" - "+year);
+                        mCurrentDate.set(year, month, dayOfMonth);
+                        yearChosen = year;
+                        monthChosen = month;
+                        dayChosen = dayOfMonth;
 
-
+                    }
+                }, year, month, day);
+                datePickerDialog.show();
+                datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis()-1000);
             }
         });
+
+
+
+
 
     }
 
@@ -141,16 +155,16 @@ public class SetAvailabilityActivity extends BaseActivity {
     private void sendAvailability(int start, int end) {
         //date selected
         Calendar date = Calendar.getInstance();
-        date.set(year, month, day);
+        date.set(yearChosen, monthChosen, dayChosen);
 
         //times selected
         Calendar startTime = Calendar.getInstance();
-        date.set(year, month, day);
+        date.set(yearChosen, monthChosen, dayChosen);
         startTime.set(Calendar.HOUR, start);
         startTime.set(Calendar.MINUTE, 00);
 
         Calendar endTime = Calendar.getInstance();
-        date.set(year, month, day);
+        date.set(yearChosen, monthChosen, dayChosen);
         endTime.set(Calendar.HOUR, end);
         endTime.set(Calendar.MINUTE, 00);
 

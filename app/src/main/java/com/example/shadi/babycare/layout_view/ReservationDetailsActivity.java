@@ -38,7 +38,7 @@ public class ReservationDetailsActivity extends BaseActivity {
     private void detailsByStatus() {
         String stat = status.getText().toString();
         //setting the opt button dynamically
-        Button opt = new Button(this);
+        Button opt = new Button(getApplicationContext());
         opt.setBackgroundResource(R.drawable.button);
         opt.setId(R.id.opt);
         ConstraintSet cs = new ConstraintSet();
@@ -48,6 +48,8 @@ public class ReservationDetailsActivity extends BaseActivity {
         cs.connect(opt.getId(), ConstraintSet.END, cl.getId(), ConstraintSet.END);
         cs.applyTo(cl);
 
+        if(stat.equals("ACCEPTED"))
+            opt.setText("CANCEL");
 
         //TODO impostazione tasto in base a stato reservation
 
