@@ -3,6 +3,7 @@ package com.example.shadi.babycare.layout_view;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
@@ -25,11 +27,11 @@ import java.util.GregorianCalendar;
 
 public class SearchingActivity extends BaseActivity {
 
-    private MapView map;
     private EditText calendar;
     private EditText timer1;
     private EditText timer2;
     private Calendar mCurrentDate, mCurrentTime;
+    private RelativeLayout map_container;
     private Button search;
     private int yearChosen, monthChosen, dayChosen, startingHourChosen, endingHourChosen, startingMinuteChosen, endingMinuteChosen;
     private LocalDate ld;
@@ -48,6 +50,7 @@ public class SearchingActivity extends BaseActivity {
         timer1 = findViewById(R.id.timeview);
         timer2 = findViewById(R.id.timeview2);
         search = findViewById(R.id.search);
+        map_container = findViewById(R.id.map_container);
         initialize();
 
         calendar.setOnClickListener(new View.OnClickListener() {
@@ -135,6 +138,10 @@ public class SearchingActivity extends BaseActivity {
             }
         });
 
+        MapsFragment mf = new MapsFragment();
+        FragmentManager manager = getSupportFragmentManager();
+        manager.beginTransaction().replace(R.id.map_container, mf).commit();
+
     }
 
     private void initialize() {
@@ -165,5 +172,7 @@ public class SearchingActivity extends BaseActivity {
 
 
     }
+
+
 
 }

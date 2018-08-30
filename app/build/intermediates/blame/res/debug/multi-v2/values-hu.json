@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\giuli\\StudioProjects\\BabyCare\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0-alpha1.aar\\24d048df6f96a8fb1ff7f5e4a54fd2ca\\res\\values-hu\\values-hu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "61",
-                        "startColumns": "4",
-                        "startOffsets": "7546",
-                        "endColumns": "100",
-                        "endOffsets": "7642"
-                    }
-                },
-                {
                     "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\64f33ed45ff5b1bf1fa4f7d88648aed7\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
@@ -52,6 +35,23 @@
                         "startOffsets": "5784",
                         "endColumns": "235",
                         "endOffsets": "6015"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\giuli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0-rc01.aar\\3f28cb0421387e2c7876eea3f9571770\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "61",
+                        "startColumns": "4",
+                        "startOffsets": "7546",
+                        "endColumns": "100",
+                        "endOffsets": "7642"
                     }
                 },
                 {

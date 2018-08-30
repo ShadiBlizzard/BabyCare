@@ -28,7 +28,7 @@ public class BaseActivity extends AppCompatActivity {
         mToggle = new ActionBarDrawerToggle(this, mDrLayout, R.string.open, R.string.close);
         mDrLayout.addDrawerListener(mToggle);
         mToggle.syncState();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //changing language
         Locale locale = new Locale("en_US");
