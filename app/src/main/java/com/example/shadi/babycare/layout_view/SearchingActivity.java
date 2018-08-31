@@ -8,6 +8,7 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
@@ -28,6 +29,11 @@ import android.widget.Toast;
 
 import com.example.shadi.babycare.R;
 import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.model.LatLng;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -44,8 +50,7 @@ public class SearchingActivity extends BaseActivity {
     private Calendar mCurrentDate, mCurrentTime;
     private Button search;
     private int yearChosen, monthChosen, dayChosen, startingHourChosen, endingHourChosen, startingMinuteChosen, endingMinuteChosen;
-    private LocalDate ld;
-    private LocalTime lt;
+    private LatLng coordinates;
 
     private EditText manualAddress;
     private ImageButton locator;
@@ -149,12 +154,15 @@ public class SearchingActivity extends BaseActivity {
                 Calendar endTime = Calendar.getInstance();
                 endTime.set(Calendar.HOUR, endingHourChosen);
                 endTime.set(Calendar.MINUTE, endingMinuteChosen);
-                //TODO robe da mandare al backend, mancano robe mappa
+                //TODO robe da mandare al backend
 
+                //map things
+                new GetCoordinates().execute(manualAddress.getText().toString().replace(" ", "+"));
                 Intent results = new Intent(getApplicationContext(), ResultsListActivity.class);
-                startActivity(results);
+               // startActivity(results);
             }
         });
+
 
     }
 
@@ -191,5 +199,45 @@ public class SearchingActivity extends BaseActivity {
     }
 
 
+    private class GetCoordinates extends AsyncTask<String, Void, String>{
+        @Override
+        protected String doInBackground(String... strings) {
+            String response;
+            try {
+                String address = strings[0];
+                HttpDataHandler http = new HttpDataHandler();
+                String url = String.format("https://maps.googleapis.com/maps/api/geocode/json?address=%s", address);
+                response = http.getHttpData(url);
+                return response;
+            }
+            catch(Exception e) {
+                e.printStackTrace();
+            }
 
+            return null;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            try {
+                JSONObject obj = new JSONObject(s);
+
+                String lat = ((JSONArray) obj.get("results")).getJSONObject(0).getJSONObject("geometry")
+                        .getJSONObject("location").get("lat").toString();
+                String lng = ((JSONArray) obj.get("results")).getJSONObject(0).getJSONObject("geometry")
+                        .getJSONObject("location").get("lng").toString();
+
+                coordinates = new LatLng(Double.parseDouble(lat), Double.parseDouble(lng));
+                manualAddress.setText(lat+ " " + lng);
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }
