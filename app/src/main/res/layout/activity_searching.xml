@@ -18,40 +18,32 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="128dp"
             android:background="@drawable/edittext_bc"
             android:ems="10"
             android:hint="address"
             android:inputType="textPersonName"
             android:textAppearance="@style/TextBabyCare"
             android:textColor="@color/form_black"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton"
+            app:layout_constraintEnd_toStartOf="@+id/locator"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/locator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="128dp"
             android:background="@color/button_babycare_normal"
             android:padding="8dp"
             android:tint="#fff"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/manual_address"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@android:drawable/ic_menu_mylocation" />
-
-        <RelativeLayout
-            android:id="@+id/map_container"
-            android:layout_width="0dp"
-            android:layout_height="300dp"
-            android:layout_margin="16dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/manual_address">
-
-        </RelativeLayout>
 
         <EditText
             android:id="@+id/calendarview"
@@ -59,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="36dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="24dp"
             android:background="@drawable/edittext_bc"
             android:clickable="false"
             android:cursorVisible="false"
@@ -70,7 +62,7 @@
             android:textColor="@color/form_black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView5"
-            app:layout_constraintTop_toBottomOf="@id/map_container" />
+            app:layout_constraintTop_toBottomOf="@+id/manual_address" />
 
         <EditText
             android:id="@+id/timeview"
@@ -116,12 +108,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="24dp"
             android:text="Day:"
             android:textAppearance="@style/TextBabyCare"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/map_container" />
+            app:layout_constraintTop_toBottomOf="@+id/manual_address" />
 
         <TextView
             android:id="@+id/textView8"

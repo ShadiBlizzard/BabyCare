@@ -1,8 +1,18 @@
 package com.example.shadi.babycare.layout_view;
 
+import android.Manifest;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Build;
+import android.provider.Settings;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,6 +21,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -31,11 +42,14 @@ public class SearchingActivity extends BaseActivity {
     private EditText timer1;
     private EditText timer2;
     private Calendar mCurrentDate, mCurrentTime;
-    private RelativeLayout map_container;
     private Button search;
     private int yearChosen, monthChosen, dayChosen, startingHourChosen, endingHourChosen, startingMinuteChosen, endingMinuteChosen;
     private LocalDate ld;
     private LocalTime lt;
+
+    private EditText manualAddress;
+    private ImageButton locator;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //TODO PINS PER INDIRIZZO
@@ -50,7 +64,8 @@ public class SearchingActivity extends BaseActivity {
         timer1 = findViewById(R.id.timeview);
         timer2 = findViewById(R.id.timeview2);
         search = findViewById(R.id.search);
-        map_container = findViewById(R.id.map_container);
+        manualAddress = findViewById(R.id.manual_address);
+        locator = findViewById(R.id.locator);
         initialize();
 
         calendar.setOnClickListener(new View.OnClickListener() {
@@ -65,7 +80,7 @@ public class SearchingActivity extends BaseActivity {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
                         month++;
-                        calendar.setText(dayOfMonth+" - "+ month +" - "+year);
+                        calendar.setText(dayOfMonth + " - " + month + " - " + year);
                         mCurrentDate.set(year, month, dayOfMonth);
                         yearChosen = year;
                         monthChosen = month;
@@ -74,7 +89,7 @@ public class SearchingActivity extends BaseActivity {
                     }
                 }, year, month, day);
                 datePickerDialog.show();
-                datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis()-1000);
+                datePickerDialog.getDatePicker().setMinDate(System.currentTimeMillis() - 1000);
             }
         });
 
@@ -89,7 +104,7 @@ public class SearchingActivity extends BaseActivity {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
 
-                        timer1.setText(hourOfDay+":"+String.format("%02d", minute));
+                        timer1.setText(hourOfDay + ":" + String.format("%02d", minute));
                         startingHourChosen = hourOfDay;
                         startingMinuteChosen = minute;
                     }
@@ -110,7 +125,7 @@ public class SearchingActivity extends BaseActivity {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
 
-                        timer2.setText(hourOfDay+":"+String.format("%02d", minute));
+                        timer2.setText(hourOfDay + ":" + String.format("%02d", minute));
                         endingHourChosen = hourOfDay;
                         endingMinuteChosen = minute;
                     }
@@ -135,12 +150,11 @@ public class SearchingActivity extends BaseActivity {
                 endTime.set(Calendar.HOUR, endingHourChosen);
                 endTime.set(Calendar.MINUTE, endingMinuteChosen);
                 //TODO robe da mandare al backend, mancano robe mappa
+
+                Intent results = new Intent(getApplicationContext(), ResultsListActivity.class);
+                startActivity(results);
             }
         });
-
-        MapsFragment mf = new MapsFragment();
-        FragmentManager manager = getSupportFragmentManager();
-        manager.beginTransaction().replace(R.id.map_container, mf).commit();
 
     }
 
@@ -149,6 +163,9 @@ public class SearchingActivity extends BaseActivity {
         startingHourChosen = -1;
         endingHourChosen = -1;
     }
+
+
+
 
     private void dateTimeParametersConstraints() {
         if(dayChosen ==-1 || startingHourChosen ==-1 || endingHourChosen ==-1) {

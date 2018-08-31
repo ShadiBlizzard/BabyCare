@@ -1,6 +1,7 @@
 package com.example.shadi.babycare.layout_view;
 
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
@@ -15,45 +16,21 @@ import model.ProfileBs;
 
 public class ResultsListActivity extends BaseActivity {
 
-    private ListView listView;
-    private ProfileAdapter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //TODO backend call, profile call per babysitter disponibili
+        //TODO backend call, profile call per babysitter disponibili che poi verranno aggiunte come pins alla mappa
         super.onCreate(savedInstanceState);
         FrameLayout fl = findViewById(R.id.content_frame);
         getLayoutInflater().inflate(R.layout.activity_results_list, fl);
 
         super.setTitle("Results");
 
-        listView = findViewById(R.id.resultsList);
-        listCreation();
+        //map setting
+        MapsFragment mf = new MapsFragment();
+        FragmentManager manager = getSupportFragmentManager();
+        manager.beginTransaction().replace(R.id.map_container, mf).commit();
     }
 
-    private void listCreation() {
-        ArrayList<ProfileBs> bs= new ArrayList<>();
 
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-        bs.add(new ProfileBs("Name", "Surname", "pic", 0.5f));
-
-
-        adapter = new ProfileAdapter(this, bs);
-        listView.setAdapter(adapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //TODO backend call per dettagli profilo
-            }
-        });
-
-    }
 }
