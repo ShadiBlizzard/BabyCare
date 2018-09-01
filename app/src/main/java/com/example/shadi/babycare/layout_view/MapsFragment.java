@@ -17,13 +17,14 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import model.ProfileBs;
+
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MapsFragment extends Fragment implements OnMapReadyCallback {
+public class MapsFragment extends Fragment {
 
 
-    GoogleMap map;
     public MapsFragment() {
         // Required empty public constructor
     }
@@ -42,23 +43,9 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        SupportMapFragment mapFragment =
-                (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map_fragment);
-        mapFragment.getMapAsync(this);
+
+
+
     }
 
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-        map = googleMap;
-        LatLng baseCoord = new LatLng(45.465454, 9.186515999999983);
-
-        //setting zoom on street view
-        map.setMinZoomPreference(15);
-
-        //AGGIUNTA DEI MARKER, CI SERVIRA' ANCHE PER FARE LE POSIZIONI DELLE BS.
-        MarkerOptions markerOptions = new MarkerOptions();
-        markerOptions.position(baseCoord).title("NAME");
-        map.addMarker(markerOptions);
-        map.moveCamera(CameraUpdateFactory.newLatLng(baseCoord));
-    }
 }

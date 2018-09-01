@@ -5,13 +5,17 @@ import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.os.PersistableBundle;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentManager;
@@ -35,11 +39,13 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.lang.reflect.Executable;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.List;
 
 
 public class SearchingActivity extends BaseActivity {
@@ -50,7 +56,7 @@ public class SearchingActivity extends BaseActivity {
     private Calendar mCurrentDate, mCurrentTime;
     private Button search;
     private int yearChosen, monthChosen, dayChosen, startingHourChosen, endingHourChosen, startingMinuteChosen, endingMinuteChosen;
-    private LatLng coordinates;
+    private Double lat, lng;
 
     private EditText manualAddress;
     private ImageButton locator;
@@ -72,7 +78,11 @@ public class SearchingActivity extends BaseActivity {
         manualAddress = findViewById(R.id.manual_address);
         locator = findViewById(R.id.locator);
         initialize();
+     }
 
+    @Override
+    public void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
         calendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -157,12 +167,26 @@ public class SearchingActivity extends BaseActivity {
                 //TODO robe da mandare al backend
 
                 //map things
-                new GetCoordinates().execute(manualAddress.getText().toString().replace(" ", "+"));
-                Intent results = new Intent(getApplicationContext(), ResultsListActivity.class);
-               // startActivity(results);
+                try {
+                    //new GetCoordinates().execute(manualAddress.getText().toString().replace(" ", "+"));
+                    Geocoder g = new Geocoder(getApplicationContext());
+                    List<Address> a = g.getFromLocationName(manualAddress.getText().toString(), 1);
+                    if(a == null)
+                        throw new IllegalArgumentException("set a correct address");
+
+                    lat = a.get(0).getLatitude();
+                    lng = a.get(0).getLongitude();
+                    Intent results = new Intent(getApplicationContext(), ResultMapActivity.class);
+                    results.putExtra("lat", lat.toString());
+                    results.putExtra("lng", lng.toString());
+                    startActivity(results);
+                }
+                catch (Exception e) {
+                    e.printStackTrace();
+                }
+
             }
         });
-
 
     }
 
@@ -227,17 +251,21 @@ public class SearchingActivity extends BaseActivity {
             try {
                 JSONObject obj = new JSONObject(s);
 
+
                 String lat = ((JSONArray) obj.get("results")).getJSONObject(0).getJSONObject("geometry")
                         .getJSONObject("location").get("lat").toString();
                 String lng = ((JSONArray) obj.get("results")).getJSONObject(0).getJSONObject("geometry")
                         .getJSONObject("location").get("lng").toString();
 
-                coordinates = new LatLng(Double.parseDouble(lat), Double.parseDouble(lng));
+
                 manualAddress.setText(lat+ " " + lng);
 
             } catch (JSONException e) {
                 e.printStackTrace();
+                Toast t = Toast.makeText(getApplicationContext(), "Please insert a valid address", Toast.LENGTH_SHORT);
+                t.show();
             }
         }
     }
+
 }

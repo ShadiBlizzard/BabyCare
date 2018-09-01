@@ -77,9 +77,11 @@
         <activity
             android:name=".layout_view.ReservationsListActivity"
             android:screenOrientation="portrait" />
-        <!--<activity
+        <!--
+            <activity
             android:name=".layout_view.SearchingActivity"
-            android:screenOrientation="portrait" />-->
+            android:screenOrientation="portrait" />
+        -->
         <activity
             android:name=".layout_view.ReviewListActivity"
             android:screenOrientation="portrait" />
@@ -100,9 +102,6 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".layout_view.ProfileParFromBsActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".layout_view.ResultsListActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".layout_view.ProfileBsFromBsActivity"
@@ -158,7 +157,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-
+        <activity android:name=".layout_view.ResultMapActivity"></activity>
     </application>
 
 </manifest>
